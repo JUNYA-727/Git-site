@@ -21,7 +21,7 @@ export default function Notfound() {
       }}
     >
       <div
-        className="fadeup-logo"
+        className="fadeup-name"
         style={{
           color: "white",
           textAlign: "center",
