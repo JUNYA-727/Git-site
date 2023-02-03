@@ -28,7 +28,7 @@ export default function Notfound() {
           width: "100%",
         }}
       >
-        <h1>Coming soon...</h1>
+        <h3>Coming soon...</h3>
       </div>
     </div>
   );
