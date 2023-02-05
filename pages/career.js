@@ -19,7 +19,6 @@ export default function Notfound() {
       id="main"
       style={{
         width: "100svw",
-        height: "200svh",
         alignItems: "center",
         backgroundColor: "f5f3f5",
         paddingTop: "0px",
