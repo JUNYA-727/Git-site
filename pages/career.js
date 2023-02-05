@@ -22,6 +22,7 @@ export default function Notfound() {
         alignItems: "center",
         backgroundColor: "f5f3f5",
         paddingTop: "0px",
+        paddingBottom: "20%",
       }}
       className="fadeup-overall"
     >
