@@ -77,9 +77,8 @@ export default function Notfound() {
             <li class="timeline-list-item">
               <div class="date">2021年09月</div>
               <div class="content">
-                ビットコインを自動取引するbotを作成して運用する。
                 <p style={{ margin: "0px" }}>
-                  本格的にPythonでの開発を始める。
+                  ビットコインを自動取引するbotを作成して運用する。
                 </p>
                 <Image
                   src={"https://junya-727.github.io/blog/y1206.png"}
