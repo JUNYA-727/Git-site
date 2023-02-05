@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Permanent+Marker&display=swap');
 @supports (-webkit-touch-callout: none) {
   html {
     height: -webkit-fill-available;
@@ -63,3 +64,59 @@ a {
         }
   
     }
+
+    .timeline {
+      width: 95%;
+      max-width: 940px;
+      margin-right: auto;
+      margin-left: auto;
+      padding:2em;/*内側余白*/
+      border-radius: 150px 20px/100px 100px;
+      border: 8px solid #576ca8;
+
+      z-index: 100;
+    }
+    
+    .timeline-list {
+      padding: 0px 0;
+    }
+    
+    .timeline-list-item {
+      display: flex;
+      line-height: 1.5;
+      font-size: 16px;
+    }
+    
+    .timeline-list-item .date {
+      width: 35%;
+      padding: 0 0 0 5px;
+      color:#302b27;
+      font-weight: bold;
+      font-size:12px
+    }
+    
+    .timeline-list-item .content {
+      position: relative;
+      width: 70%;
+      padding: 0 0px 10px 20px;
+      border-left: 2px solid #1b264f;
+      font-size: 17px;
+      color:#302b27;
+      font-family: 'Noto Serif JP', serif;
+    }
+    
+    .timeline-list-item .content::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -10px;
+      width: 20px;
+      height: 20px;
+      background-color: #576ca8;
+      border-radius: 10px;
+      z-index: 1;
+    }
+.title{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px
+}
