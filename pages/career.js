@@ -47,7 +47,7 @@ export default function Notfound() {
               <div class="content">
                 <p style={{ margin: "0px" }}>大学でプログラミングを触る</p>
                 <Image
-                  src={"https://junya-727.github.io/blog/b0581.png"}
+                  //src={"https://junya-727.github.io/blog/b0581.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -62,7 +62,7 @@ export default function Notfound() {
                   本格的にPythonでの開発を始める。
                 </p>
                 <Image
-                  src={"https://junya-727.github.io/blog/g08100.png"}
+                  //src={"https://junya-727.github.io/blog/g08100.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -76,7 +76,7 @@ export default function Notfound() {
                   ビットコインを自動取引するbotを作成して運用する。
                 </p>
                 <Image
-                  src={"https://junya-727.github.io/blog/y1206.png"}
+                  //src={"https://junya-727.github.io/blog/y1206.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -90,7 +90,7 @@ export default function Notfound() {
                   SIGNATEにおいて異常物体検出の精度を競う学生のコンペで入賞｡
                 </p>
                 <Image
-                  src={"https://junya-727.github.io/blog/r0191.png"}
+                  // src={"https://junya-727.github.io/blog/r0191.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -104,7 +104,7 @@ export default function Notfound() {
                   楽天株式会社にて1ヶ月のエンジニアとして実務インターン。
                 </p>
                 <Image
-                  src={"https://junya-727.github.io/blog/n0004.png"}
+                  //src={"https://junya-727.github.io/blog/n0004.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -116,7 +116,7 @@ export default function Notfound() {
               <div class="content">
                 <p style={{ margin: "0px" }}>React,Next.jsの開発を始める｡</p>
                 <Image
-                  src={"https://junya-727.github.io/blog/g0703.png"}
+                  //  src={"https://junya-727.github.io/blog/g0703.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -129,7 +129,7 @@ export default function Notfound() {
               <div class="content">
                 <p style={{ margin: "0px" }}>Azure Fundamentals習得</p>
                 <Image
-                  src={"https://junya-727.github.io/blog/y0537.png"}
+                  //  src={"https://junya-727.github.io/blog/y0537.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -141,7 +141,7 @@ export default function Notfound() {
               <div class="content">
                 <p style={{ margin: "0px" }}>Accenture 入社</p>
                 <Image
-                  src={"https://junya-727.github.io/blog/b1025.png"}
+                  //   src={"https://junya-727.github.io/blog/b1025.png"}
                   width={200}
                   height={200}
                   alt=""
