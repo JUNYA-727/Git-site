@@ -5,15 +5,10 @@ import Image from "next/image";
 import { Link as Scroll } from "react-scroll";
 
 import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Scrollbar, A11y, Autoplay } from "swiper";
+import "swiper/css";
 export default function Notfound() {
-  /*      <Image
-        src={"https://junya-727.github.io/blog/_A6A5059.jpg"}
-        width={100}
-        height={100}
-        alt=""
-      ></Image>*/
-
   return (
     <div
       id="main"
@@ -156,6 +151,89 @@ export default function Notfound() {
           </ul>
         </div>
       </div>
+      <div style={{ paddingTop: "5%" }}>
+        <p style={{ marginLeft: "5%" }} className="title">
+          Profile
+        </p>
+
+        <div id="card" style={{ marginTop: "20%", marginBottom: "20%" }}>
+          <h1>Junya Kuramochi</h1>
+          <div class="image-crop">
+            <Swiper
+              modules={[Pagination, Scrollbar, A11y, Autoplay]}
+              spaceBetween={0}
+              pagination={{
+                clickable: false,
+              }}
+              slidesPerView={1}
+              autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+              }}
+              p
+              speed={300}
+            >
+              <SwiperSlide>
+                <img
+                  id="avatar"
+                  src="https://junya-727.github.io/blog/B89ECA17-FFF1-46F1-84B4-79E68AAFFBE7.jpg"
+                ></img>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  id="avatar"
+                  src="https://junya-727.github.io/blog/1BF2FD85-F7C5-4D2E-9290-0F5DB18987BF.jpg"
+                ></img>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <img
+                  id="avatar"
+                  src="https://junya-727.github.io/blog/41B5B789-BD88-4BE6-B4BE-928A574AE9A5.jpg"
+                ></img>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  id="avatar"
+                  src="https://junya-727.github.io/blog/IMG_0912.jpg"
+                ></img>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  id="avatar"
+                  src="https://junya-727.github.io/blog/DBE7A78B-A5DB-4A74-82DF-6B5C2FC22F84.jpg"
+                ></img>
+              </SwiperSlide>
+            </Swiper>
+          </div>
+          <div id="bio">
+            <p style={{ margin: "5px" }}>
+              Pythonでは機械学習分野が得意です、少しならReact,Next.jsが書けます。
+            </p>
+            <p style={{ margin: "5px" }}>Kaggle入賞とAWS SAA習得を目標。</p>
+          </div>
+          {
+            //<div id="buttons"></div>
+          }
+          <div
+            style={{
+              width: "100%",
+              textAlign: "center",
+              marginTop: "10%",
+              marginBottom: "10%",
+            }}
+          >
+            <button style={{ textAlign: "center", margin: "auto" }}>
+              <a href="https://junya-727.github.io/blog">Follow</a>
+            </button>
+          </div>
+          {
+            //<button id="msg">Message</button>
+          }
+        </div>
+      </div>
+
+      <div className=""></div>
     </div>
   );
 }

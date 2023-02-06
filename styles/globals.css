@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Permanent+Marker&display=swap');
 @supports (-webkit-touch-callout: none) {
   html {
     height: -webkit-fill-available;
@@ -100,7 +101,7 @@ a {
       width: 70%;
       padding: 0 0px 10px 20px;
       border-left: 2px solid #1b264f;
-      font-size: 17px;
+      font-size: 16px;
       color:#302b27;
       font-family: 'Noto Serif JP', serif;
     }
@@ -134,4 +135,138 @@ a {
           transform: translateY(0px);
       }
 
-  }
+    }
+    .profile {
+      width: 95%;
+      max-width: 940px;
+      margin-right: auto;
+      margin-left: auto;
+      padding:2em;/*内側余白*/
+      border-radius: 100px 120px/100px 100px;
+      border: 8px solid #00916E;
+      z-index: 100;
+    }
+
+    #card {
+      background-color: #f0f3f5;
+      height: auto;
+      width: 85%;
+      margin:  auto;
+      border-radius: 25px;
+      padding-bottom: 1px;
+      box-shadow: 3px 3px 8px #576ca8;
+    }
+    
+    h1 {
+      color: #1b264f;
+      text-align: center;
+      width: 100%;
+      background-color: #ffffff;
+      border-radius: 25px 25px 0 0;
+      color: #393B45;
+      padding: 30px 0;
+      font-weight: 400;
+      margin: 0;
+      font-size: 22px;
+    }
+    
+    .image-crop {
+      display: block;
+      position: relative;
+      background-color: #E6EBEE;
+      width: 180px;
+      height: 180px;
+      margin: 0 auto;
+      margin-top: 30px;
+      overflow: hidden;
+      border-radius: 50%;
+      box-shadow: 2px 2px 5px #576ca8;
+
+    }
+    
+    #avatar {
+      display: inline;
+      height: 230px;
+      width: 100%;
+
+    }
+    
+    #bio {
+      display: block;
+      margin: 30px auto;
+      width: 80%;
+      height: auto;
+    }
+    
+    #bio p {
+      color: #1b264f;
+      font-weight: lighter;
+      font-family: 'Noto Serif JP', serif;
+      font-size: 15px;
+      text-align: justify;
+    }
+    
+    #stats {
+      display: flex;
+      flex-direction: row;
+      height: auto;
+      width: 280px;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      font-weight: 500;
+    }
+    
+    .col {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: auto;
+    }
+    
+    .stat {
+      font-size: 20px;
+      margin: 0;
+    }
+    
+    .label {
+      margin: 0;
+    }
+    
+    #buttons {
+      display: flex;
+      margin: 0 auto;
+      justify-content: space-between;
+      width: 280px;
+    }
+    
+    button {
+      display: block;
+      position: relative;
+      padding: 10px 0;
+      width: 130px;
+      margin: 30px 0;
+      border-radius: 25px;
+      border: none;
+      font-size: 20px;
+      letter-spacing: 0.2px;
+      font-weight: 500;
+      background-color: #4069E2;
+      color: #E6EBEE;
+    }
+    
+    button:focus {
+      display: none;
+    }
+    
+    button:hover {
+      transform: scale(1.03);
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+    
+    #msg{
+      background-color: #E6EBEE;
+      color: #393B45;
+    }
