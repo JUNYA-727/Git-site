@@ -122,7 +122,7 @@ export default function Home() {
 
           <IconButton
             variant="outlined"
-            href="https://junya-727.github.io/blog/career"
+            href="https://junya-727.github.io/Git-site/career"
           >
             <WebAssetIcon
               fontSize="large"
