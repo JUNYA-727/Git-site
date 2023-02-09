@@ -287,6 +287,7 @@ export default function Notfound() {
                   name="name"
                   placeholder="例）山田太郎"
                   required
+                  style={{ color: "#302b27" }}
                 ></input>
               </div>
               <div className="Form-Item">
@@ -300,6 +301,7 @@ export default function Notfound() {
                   type="email"
                   placeholder="name@example.com"
                   class="Form-Item-Input"
+                  style={{ color: "#302b27" }}
                   required
                 />
               </div>
@@ -314,11 +316,12 @@ export default function Notfound() {
                   className="Form-Item-Textarea"
                   rows="3"
                   required
+                  style={{ color: "#302b27" }}
                 ></textarea>
               </div>
               <div className="Form-Item">
                 <button type="submit" className="Form-Btn" ref={ref1}>
-                  <a>送信する</a>;
+                  <a>送信する</a>
                 </button>
               </div>
             </form>
