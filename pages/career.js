@@ -241,12 +241,15 @@ export default function Notfound() {
                 ></img>
               </SwiperSlide>
               <SwiperSlide>
-                <img id="avatar" src="/IMG_0912.jpg"></img>
+                <img
+                  id="avatar"
+                  src="https://junya-727.github.io/Git-site/IMG_0912.jpg"
+                ></img>
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   id="avatar"
-                  src="https://junya-727.github.io/blog/DBE7A78B-A5DB-4A74-82DF-6B5C2FC22F84.jpg"
+                  src="https://junya-727.github.io/Git-site/DBE7A78B-A5DB-4A74-82DF-6B5C2FC22F84.jpg"
                 ></img>
               </SwiperSlide>
             </Swiper>
