@@ -15,7 +15,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import { IconButton } from "@mui/material";
 
 export default function Notfound() {
-  const [send, setSend] = useState(true);
+  const [send, setSend] = useState(false);
 
   const registerUser = async (event) => {
     event.preventDefault();
@@ -31,13 +31,20 @@ export default function Notfound() {
       },
       method: "POST",
     });
-
     const result = await res.json();
   };
   const [ref1, inview1] = useInView({
     rootMargin: "-1px",
   });
-
+  function creartext() {
+    const textform1 = document.getElementById("name");
+    const textform2 = document.getElementById("email");
+    const textform3 = document.getElementById("message");
+    textform1.value = "";
+    textform2.value = "";
+    textform3.value = "";
+    setSend(true);
+  }
   //https://junya-727.github.io/blog
   return (
     <div
@@ -274,7 +281,7 @@ export default function Notfound() {
           Contact
         </p>
         <div>
-          <div className="Form">
+          <div className="Form" onSubmit={creartext}>
             <form onSubmit={registerUser} id="mail">
               <div class="Form-Item">
                 <p class="Form-Item-Label">
@@ -286,8 +293,8 @@ export default function Notfound() {
                   id="name"
                   name="name"
                   placeholder="例）山田太郎"
-                  required
                   style={{ color: "#302b27" }}
+                  required
                 ></input>
               </div>
               <div className="Form-Item">
@@ -315,14 +322,20 @@ export default function Notfound() {
                   name="message"
                   className="Form-Item-Textarea"
                   rows="3"
-                  required
                   style={{ color: "#302b27" }}
+                  required
                 ></textarea>
               </div>
               <div className="Form-Item">
-                <button type="submit" className="Form-Btn" ref={ref1}>
-                  <a>送信する</a>
-                </button>
+                {send ? (
+                  <button className="Form-Btn" ref={ref1}>
+                    <a>送信されました</a>
+                  </button>
+                ) : (
+                  <button className="Form-Btn" ref={ref1}>
+                    <a>送信する</a>
+                  </button>
+                )}
               </div>
             </form>
           </div>
