@@ -74,7 +74,6 @@ a {
       padding:2em;/*内側余白*/
       border-radius: 150px 20px/100px 100px;
       border: 8px solid #576ca8;
-
       z-index: 100;
     }
     
@@ -129,6 +128,21 @@ a {
       from{
           opacity: 0;
           transform:translateY(20px)
+      }
+      to{
+          opacity: 1;
+          transform: translateY(0px);
+      }
+
+    }
+.fadeup-logo2{
+  animation-name:fadeup2;
+  animation-duration: 5s;
+}
+  @keyframes fadeup2{
+      from{
+          opacity: 0;
+          transform:translateY(0px)
       }
       to{
           opacity: 1;
@@ -255,10 +269,7 @@ a {
       background-color: #4069E2;
       color: #E6EBEE;
     }
-    
-    button:focus {
-      display: none;
-    }
+
     
     button:hover {
       transform: scale(1.03);
@@ -270,3 +281,189 @@ a {
       background-color: #E6EBEE;
       color: #393B45;
     }
+    .Form {
+      margin-top: 80px;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 720px;
+    }
+    @media screen and (max-width: 480px) {
+      .Form {
+        margin-top: 40px;
+      }
+    }
+    .Form-Item {
+    
+      padding-top: 24px;
+      padding-bottom: 24px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+    @media screen and (max-width: 480px) {
+      .Form-Item {
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        flex-wrap: wrap;
+      }
+    }
+
+    .Form-Item-Label {
+      width: 100%;
+      max-width: 248px;
+      letter-spacing: 0.05em;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    @media screen and (max-width: 480px) {
+      .Form-Item-Label {
+        max-width: inherit;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+      }
+    }
+    .Form-Item-Label.isMsg {
+      margin-top: 8px;
+      margin-bottom: auto;
+    }
+    @media screen and (max-width: 480px) {
+      .Form-Item-Label.isMsg {
+        margin-top: 0;
+      }
+    }
+    .Form-Item-Label-Required {
+      border-radius: 6px;
+      margin-right: 8px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      width: 48px;
+      display: inline-block;
+      text-align: center;
+      background: #545454;
+      color: #fff;
+      font-size: 14px;
+    }
+    @media screen and (max-width: 480px) {
+      .Form-Item-Label-Required {
+        border-radius: 4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        width: 32px;
+        font-size: 10px;
+      }
+    }
+    .Form-Item-Input {
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      margin-left: 40px;
+      padding-left: 1em;
+      padding-right: 1em;
+      height: 48px;
+      flex: 1;
+      width: 100%;
+      max-width: 410px;
+      background: #eaedf2;
+      font-size: 18px;
+    }
+    @media screen and (max-width: 480px) {
+      .Form-Item-Input {
+        margin-left: 0;
+        margin-top: 18px;
+        height: 40px;
+        flex: inherit;
+        font-size: 15px;
+      }
+    }
+    .Form-Item-Textarea {
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      margin-left: 40px;
+      padding-left: 1em;
+      padding-right: 1em;
+      height: 216px;
+      flex: 1;
+      width: 100%;
+      max-width: 410px;
+      background: #eaedf2;
+      font-size: 18px;
+    }
+    @media screen and (max-width: 480px) {
+      .Form-Item-Textarea {
+        margin-top: 18px;
+        margin-left: 0;
+        height: 200px;
+        flex: inherit;
+        font-size: 15px;
+      }
+    }
+    .Form-Btn {
+      border-radius: 6px;
+      margin-top: 32px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      width: 280px;
+      display: block;
+      letter-spacing: 0.05em;
+      background: #545454;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    @media screen and (max-width: 480px) {
+      .Form-Btn {
+        margin-top: 24px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 16px;
+      }
+        
+
+    .sample {
+      position:relative;
+      overflow:hidden;
+      width:100%;
+      height:300px;
+      z-index: 1;
+      transform:rotate(180deg);
+    }
+    
+      .sample::before,
+      .sample::after {
+        position:absolute;
+        left:-40%;
+        width:200%;
+        height:200%;
+        content:"";
+        background-color:#3168dd;
+        animation:wave linear 10s infinite;
+      }
+    
+      .sample::before {
+        top:-150%;
+        border-radius:50% 50% / 50% 70%;
+      }
+    
+      .sample::after {
+        top:-146%;
+        border-radius:30% 70% / 30% 50%;
+        opacity:0.2;
+        animation-delay:s;
+      }
+    
+    @keyframes wave {
+      from {
+        transform:rotate(0deg);
+      }
+      to {
+        transform:rotate(360deg);
+      }
+    }
+  }
+  .font-theme{
+    font-family: 'Noto Serif JP', serif;
+  }
