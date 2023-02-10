@@ -1,9 +1,10 @@
 /** @format */
 export default function handler(req, res) {
+  const API_KEY = process.env.API_KEY;
   if (req.method === "POST") {
     const sgMail = require("@sendgrid/mail");
     ///process.env.API_KEY
-    sgMail.setApiKey(process.env.API_KEY);
+    sgMail.setApiKey(API_KEY);
     const msg = {
       to: req.body.email,
       from: "k.junya0727@gamil.com",
