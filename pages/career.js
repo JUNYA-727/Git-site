@@ -45,7 +45,7 @@ export default function Notfound() {
     textform3.value = "";
     setSend(true);
   }
-  //https://junya-727.github.io/blog
+  //https://junya-727.github.io/Profile
   return (
     <div
       id="main"
@@ -97,7 +97,7 @@ export default function Notfound() {
                   大学でプログラミングを初めて触る。
                 </p>
                 <Image
-                  src={"https://junya-727.github.io/Git-site/b0581.png"}
+                  src={"/b0581.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -110,7 +110,7 @@ export default function Notfound() {
               <div class="content">
                 <p style={{ margin: "0px" }}>Pythonでの開発を始める。</p>
                 <Image
-                  src={"https://junya-727.github.io/Git-site/g08100.png"}
+                  src={"/g08100.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -124,7 +124,7 @@ export default function Notfound() {
                   機械学習を用いたビットコイン自動取引botを作成して運用する。
                 </p>
                 <Image
-                  src={"https://junya-727.github.io/Git-site/y1206.png"}
+                  src={"/y1206.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -138,7 +138,7 @@ export default function Notfound() {
                   SIGNATEにおいて異常物体検出の精度を競う学生のコンペで入賞｡
                 </p>
                 <Image
-                  src={"https://junya-727.github.io/Git-site/r0191.png"}
+                  src={"/r0191.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -152,7 +152,7 @@ export default function Notfound() {
                   楽天株式会社にて1ヶ月のエンジニアとして実務インターン。楽天ペイの開発。
                 </p>
                 <Image
-                  src={"https://junya-727.github.io/Git-site/n0004.png"}
+                  src={"/n0004.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -164,7 +164,7 @@ export default function Notfound() {
               <div class="content">
                 <p style={{ margin: "0px" }}>React,Next.jsの開発を始める｡</p>
                 <Image
-                  src={"https://junya-727.github.io/Git-site/g0703.png"}
+                  src={"/g0703.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -177,7 +177,7 @@ export default function Notfound() {
               <div class="content">
                 <p style={{ margin: "0px" }}>Azure Fundamentals習得</p>
                 <Image
-                  src={"https://junya-727.github.io/Git-site/y0537.png"}
+                  src={"/y0537.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -189,7 +189,7 @@ export default function Notfound() {
               <div class="content">
                 <p style={{ margin: "0px" }}>Accenture 入社</p>
                 <Image
-                  src={"https://junya-727.github.io/Git-site/b1025.png"}
+                  src={"/b1025.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -224,32 +224,29 @@ export default function Notfound() {
               <SwiperSlide>
                 <img
                   id="avatar"
-                  src="https://junya-727.github.io/Git-site/B89ECA17-FFF1-46F1-84B4-79E68AAFFBE7.jpg"
+                  src="/B89ECA17-FFF1-46F1-84B4-79E68AAFFBE7.jpg"
                 ></img>
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   id="avatar"
-                  src="https://junya-727.github.io/Git-site/1BF2FD85-F7C5-4D2E-9290-0F5DB18987BF.jpg"
+                  src="/1BF2FD85-F7C5-4D2E-9290-0F5DB18987BF.jpg"
                 ></img>
               </SwiperSlide>
 
               <SwiperSlide>
                 <img
                   id="avatar"
-                  src="https://junya-727.github.io/Git-site/41B5B789-BD88-4BE6-B4BE-928A574AE9A5.jpg"
+                  src="/41B5B789-BD88-4BE6-B4BE-928A574AE9A5.jpg"
                 ></img>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img id="avatar" src="/IMG_0912.jpg"></img>
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   id="avatar"
-                  src="https://junya-727.github.io/Git-site/IMG_0912.jpg"
-                ></img>
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  id="avatar"
-                  src="https://junya-727.github.io/Git-site/DBE7A78B-A5DB-4A74-82DF-6B5C2FC22F84.jpg"
+                  src="/DBE7A78B-A5DB-4A74-82DF-6B5C2FC22F84.jpg"
                 ></img>
               </SwiperSlide>
             </Swiper>
