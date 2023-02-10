@@ -120,10 +120,7 @@ export default function Home() {
             ></TwitterIcon>
           </IconButton>
 
-          <IconButton
-            variant="outlined"
-            href="https://junya-727.github.io/Git-site/career"
-          >
+          <IconButton variant="outlined" href="/career">
             <WebAssetIcon
               fontSize="large"
               style={{ color: "#33FF00" }}
