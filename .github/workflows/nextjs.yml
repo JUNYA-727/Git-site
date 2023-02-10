@@ -32,6 +32,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Store variables
+        run: |
+          mkdir value
+          cd value
+          touch .env
+          echo 'API_KEY=${{ secrets.API_KEY }}' >> .env
       - name: Detect package manager
         id: detect-package-manager
         run: |
