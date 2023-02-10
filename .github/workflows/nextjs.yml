@@ -79,7 +79,7 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name : test-name1
         run:
-          echo API_KEY        
+          echo ${{secrets.API_KEY}}        
       - name: Static HTML export with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next export
       - name: Upload artifact
