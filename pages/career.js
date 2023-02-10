@@ -398,6 +398,7 @@ export default function Notfound() {
 
         <div id="bottom" className="sample"></div>
       </div>
+      <h2>{process.env.API_KEY}</h2>
     </div>
   );
 }
