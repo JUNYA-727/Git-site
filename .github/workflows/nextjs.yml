@@ -79,7 +79,7 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name : test-name1
         run:
-          echo ${{secrets.API_KEY}}        
+          echo API_KEY        
       - name : test-name1
         run:
           echo ${{API_KEY}} 
