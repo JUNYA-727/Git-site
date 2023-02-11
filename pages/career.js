@@ -218,7 +218,7 @@ export default function Notfound() {
                 delay: 2000,
                 disableOnInteraction: false,
               }}
-              p
+              allowTouchMove={false}
               speed={2000}
             >
               <SwiperSlide>
