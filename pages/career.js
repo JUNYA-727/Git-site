@@ -97,7 +97,7 @@ export default function Notfound() {
                   大学でプログラミングを初めて触る。
                 </p>
                 <Image
-                  src={"https://junya-727.github.io/Profile/b0581.png"}
+                  src={"/b0581.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -110,7 +110,7 @@ export default function Notfound() {
               <div class="content">
                 <p style={{ margin: "0px" }}>Pythonでの開発を始める。</p>
                 <Image
-                  src={"https://junya-727.github.io/Profile/g08100.png"}
+                  src={"/g08100.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -124,7 +124,7 @@ export default function Notfound() {
                   機械学習を用いたビットコイン自動取引botを作成して運用する。
                 </p>
                 <Image
-                  src={"https://junya-727.github.io/Profile/y1206.png"}
+                  src={"/y1206.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -138,7 +138,7 @@ export default function Notfound() {
                   SIGNATEにおいて異常物体検出の精度を競う学生のコンペで入賞｡
                 </p>
                 <Image
-                  src={"https://junya-727.github.io/Profile/r0191.png"}
+                  src={"/r0191.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -152,7 +152,7 @@ export default function Notfound() {
                   楽天株式会社にて1ヶ月のエンジニアとして実務インターン。楽天ペイの開発。
                 </p>
                 <Image
-                  src={"https://junya-727.github.io/Profile/n0004.png"}
+                  src={"/n0004.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -164,7 +164,7 @@ export default function Notfound() {
               <div class="content">
                 <p style={{ margin: "0px" }}>React,Next.jsの開発を始める｡</p>
                 <Image
-                  src={"https://junya-727.github.io/Profile/g0703.png"}
+                  src={"/g0703.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -177,7 +177,7 @@ export default function Notfound() {
               <div class="content">
                 <p style={{ margin: "0px" }}>Azure Fundamentals習得</p>
                 <Image
-                  src={"https://junya-727.github.io/Profile/y0537.png"}
+                  src={"/y0537.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -189,7 +189,7 @@ export default function Notfound() {
               <div class="content">
                 <p style={{ margin: "0px" }}>Accenture 入社</p>
                 <Image
-                  src={"https://junya-727.github.io/Profile/b1025.png"}
+                  src={"/b1025.png"}
                   width={200}
                   height={200}
                   alt=""
