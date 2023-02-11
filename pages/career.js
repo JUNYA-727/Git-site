@@ -291,7 +291,6 @@ export default function Notfound() {
                   name="name"
                   placeholder="例）山田太郎"
                   style={{ color: "#302b27" }}
-                  required
                 ></input>
               </div>
               <div className="Form-Item">
@@ -306,7 +305,6 @@ export default function Notfound() {
                   placeholder="name@example.com"
                   class="Form-Item-Input"
                   style={{ color: "#302b27" }}
-                  required
                 />
               </div>
               <div className="Form-Item">
@@ -320,13 +318,12 @@ export default function Notfound() {
                   className="Form-Item-Textarea"
                   rows="3"
                   style={{ color: "#302b27" }}
-                  required
                 ></textarea>
               </div>
               <div className="Form-Item">
                 {send ? (
                   <button className="Form-Btn" ref={ref1}>
-                    <a>送信されました</a>
+                    <a>送信されました!</a>
                   </button>
                 ) : (
                   <button className="Form-Btn" ref={ref1}>
@@ -395,10 +392,8 @@ export default function Notfound() {
             created by Junya Kuramochi
           </p>
         </div>
-
         <div id="bottom" className="sample"></div>
       </div>
-      <h2>{process.env.API_KEY}</h2>
     </div>
   );
 }
