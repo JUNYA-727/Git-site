@@ -77,7 +77,9 @@ jobs:
         run : |
             touch .env.local
             echo API_KEY=${{secrets.API_KEY}} >> .env.local
-      
+      - name: 'create env file'
+        run: |
+          echo "${{secrets.API_KEY}}" >> .env
       - name: Build with Next.js
         env: 
           API_KEY: ${{secrets.API_KEY}}
