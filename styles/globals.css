@@ -471,7 +471,7 @@ a {
     display: flex;
     align-items: center;/* 縦位置の調整 */
     justify-content: center;/* 横位置の調整 */
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Permanent Marker', cursive;
     background-color: transparent;
   }
   
@@ -482,14 +482,4 @@ a {
     height: 3px;
   }
   
-  /* 線にグラデーションをかける */
-  .h1-head::before {
-    margin-right: 20px;
-    background: linear-gradient(-90deg,#3168dd , #efefef);
-  }
-  
-  .h1-head::after {
-    margin-left: 20px;
-    background: linear-gradient(90deg, #3168dd , #efefef);
-  }
   

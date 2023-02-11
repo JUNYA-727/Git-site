@@ -507,6 +507,7 @@ export default function Notfound() {
                   name="name"
                   placeholder="例）山田太郎"
                   style={{ color: "#302b27" }}
+                  required
                 ></input>
               </div>
               <div className="Form-Item">
@@ -521,6 +522,7 @@ export default function Notfound() {
                   placeholder="name@example.com"
                   class="Form-Item-Input"
                   style={{ color: "#302b27" }}
+                  required
                 />
               </div>
               <div className="Form-Item">
@@ -534,6 +536,7 @@ export default function Notfound() {
                   className="Form-Item-Textarea"
                   rows="3"
                   style={{ color: "#302b27" }}
+                  required
                 ></textarea>
               </div>
               <div className="Form-Item">
