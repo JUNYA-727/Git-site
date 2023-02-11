@@ -80,12 +80,12 @@ jobs:
             cat .env
       - name: Build with Next.js
         run: |
+          echo API_KEY=${{secrets.API_KEY}} >> $GITHUB_ENV
           ${{ steps.detect-package-manager.outputs.runner }} next build
           env:
-            .env
             API_KEY:${{secrets.API_KEY}}
-          uses:
-            .env
+            API_KEY:${{GITHUB_ENV}}
+    
       - name : test-name1
         run:
           echo ${{secrets.API_KEY}}        
