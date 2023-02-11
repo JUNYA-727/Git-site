@@ -75,14 +75,10 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: create .env.local
         run : |
-            touch .env.local
-            echo API_KEY=${{secrets.API_KEY}} >> .env.local
-      - name: 'create env file'
-        run: |
-          echo "${{secrets.API_KEY}}" >> .env
+            touch .env
+            echo API_KEY=${{secrets.API_KEY}} >> .env
+            cat .env
       - name: Build with Next.js
-        env: 
-          API_KEY: ${{secrets.API_KEY}}
         run: |
           touch .env.local
           echo API_KEY=${{secrets.API_KEY}} >> .env.local
