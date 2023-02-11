@@ -80,8 +80,8 @@ jobs:
             echo API_KEY=${{secrets.API_KEY}} >> .env
             cat .env
             ${{ steps.detect-package-manager.outputs.runner }} next build
-            env:
-              API_KEY:${{secrets.API_KEY}}
+              env:
+                API_KEY:${{secrets.API_KEY}}
  
     
       - name : test-name1
