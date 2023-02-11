@@ -80,9 +80,12 @@ jobs:
             cat .env
       - name: Build with Next.js
         run: |
-          touch .env.local
-          echo API_KEY=${{secrets.API_KEY}} >> .env.local
           ${{ steps.detect-package-manager.outputs.runner }} next build
+          env:
+            .env
+            API_KEY:${{secrets.API_KEY}}
+          uses:
+            .env
       - name : test-name1
         run:
           echo ${{secrets.API_KEY}}        
