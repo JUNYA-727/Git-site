@@ -253,7 +253,7 @@ export default function Notfound() {
           </div>
           <div id="bio">
             <p style={{ margin: "5px" }} className="font-theme">
-              機械学習分野が好きです、特にTensorFlow。
+              機械学習分野、特にTensorflow、あとクラウドも好き。
             </p>
             <p style={{ margin: "5px" }} className="font-theme">
               今はAWSとAzureを主に学習しています。
