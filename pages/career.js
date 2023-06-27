@@ -1,4 +1,4 @@
-/** @format */
+#/** @format */
 
 import Image from "next/image";
 
@@ -608,7 +608,7 @@ export default function Notfound() {
               position: "absolute",
             }}
           >
-            created by Junya Kuramochi using Next.js
+            created by Junya Kuramochi
           </p>
         </div>
         <div id="bottom" className="sample"></div>
