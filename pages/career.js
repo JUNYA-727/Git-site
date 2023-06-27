@@ -1,4 +1,4 @@
-#/** @format */
+/** @format */
 
 import Image from "next/image";
 
