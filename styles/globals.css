@@ -67,11 +67,11 @@ a {
     }
 
     .timeline {
-      width: 90%;
+      width: 92%;
       max-width: 940px;
       margin-right: auto;
       margin-left: auto;
-      padding:2em;/*内側余白*/
+      padding:1.5em;/*内側余白*/
       border-radius: 150px 20px/100px 100px;
       border: 8px solid #576ca8;
       z-index: 100;
@@ -89,7 +89,7 @@ a {
     
     .timeline-list-item .date {
       width: 35%;
-      padding: 0 0 0 5px;
+      padding: 0 0 0 1px;
       color:#302b27;
       font-weight: bold;
       font-size:12px
@@ -102,7 +102,7 @@ a {
       border-left: 2px solid #1b264f;
       font-size: 16px;
       color:#302b27;
-      font-family: 'Noto Serif JP', serif;
+      font-family: 'Meiryo';
     }
     
     .timeline-list-item .content::before {
@@ -215,7 +215,7 @@ a {
     #bio p {
       color: #1b264f;
       font-weight: lighter;
-      font-family: 'Noto Serif JP', serif;
+      font-family: 'Meiryo';
       font-size: 15px;
       text-align: justify;
     }
@@ -293,7 +293,7 @@ a {
       }
     }
     .Form-Item {
-    
+      font-family: "Meiryo";
       padding-top: 24px;
       padding-bottom: 24px;
       width: 100%;

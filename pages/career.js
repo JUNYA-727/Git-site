@@ -91,9 +91,9 @@ export default function Notfound() {
         <div class="timeline">
           <ul class="timeline-list">
             <li class="timeline-list-item">
-              <div class="date">2019年05月</div>
+              <div class="date" style={{ margin: "0px",fontFamily:'Meiryo'}}>2019年05月</div>
               <div class="content">
-                <p style={{ margin: "0px" }}>
+                <p style={{ margin: "0px",fontFamily:'Meiryo'}}>
                   大学でプログラミングを初めて触る。
                 </p>
                 <Image
@@ -106,7 +106,7 @@ export default function Notfound() {
             </li>
 
             <li class="timeline-list-item">
-              <div class="date">2020年11月</div>
+              <div class="date" style={{ margin: "0px",fontFamily:'Meiryo'}}>2020年11月</div>
               <div class="content">
                 <p style={{ margin: "0px" }}>Pythonでの開発を始める。</p>
                 <Image
@@ -118,7 +118,7 @@ export default function Notfound() {
               </div>
             </li>
             <li class="timeline-list-item">
-              <div class="date">2021年09月</div>
+              <div class="date" style={{ margin: "0px",fontFamily:'Meiryo'}}>2021年09月</div>
               <div class="content">
                 <p style={{ margin: "0px" }}>
                   機械学習を用いたビットコイン自動取引botを作成して運用する。
@@ -132,7 +132,7 @@ export default function Notfound() {
               </div>
             </li>
             <li class="timeline-list-item">
-              <div class="date">2021年12月</div>
+              <div class="date" style={{ margin: "0px",fontFamily:'Meiryo'}}>2021年12月</div>
               <div class="content">
                 <p style={{ margin: "0px" }}>
                   SIGNATEにおいて異常物体検出の精度を競う学生のコンペで入賞｡
@@ -146,7 +146,7 @@ export default function Notfound() {
               </div>
             </li>
             <li class="timeline-list-item">
-              <div class="date">2022年03月</div>
+              <div class="date" style={{ margin: "0px",fontFamily:'Meiryo'}}>2022年03月</div>
               <div class="content">
                 <p style={{ margin: "0px" }}>
                   楽天株式会社にて1ヶ月のエンジニアとして実務インターン。楽天ペイの開発。
@@ -160,7 +160,7 @@ export default function Notfound() {
               </div>
             </li>
             <li class="timeline-list-item">
-              <div class="date">2022年04月</div>
+              <div class="date" style={{ margin: "0px",fontFamily:'Meiryo'}}>2022年04月</div>
               <div class="content">
                 <p style={{ margin: "0px" }}>React,Next.jsの開発を始める｡</p>
                 <Image
@@ -173,7 +173,7 @@ export default function Notfound() {
             </li>
 
             <li class="timeline-list-item">
-              <div class="date">2023年12月</div>
+              <div class="date" style={{ margin: "0px",fontFamily:'Meiryo'}}>2023年12月</div>
               <div class="content">
                 <p style={{ margin: "0px" }}>Azure Fundamentals習得</p>
                 <Image
@@ -185,11 +185,23 @@ export default function Notfound() {
               </div>
             </li>
             <li class="timeline-list-item">
-              <div class="date">2023年06月</div>
+              <div class="date" style={{ margin: "0px",fontFamily:'Meiryo'}}>2023年06月</div>
               <div class="content">
                 <p style={{ margin: "0px" }}>Accenture 入社</p>
                 <Image
                   src={"/b1025.png"}
+                  width={200}
+                  height={200}
+                  alt=""
+                ></Image>
+              </div>
+            </li>
+            <li class="timeline-list-item">
+              <div class="date" style={{ margin: "0px",fontFamily:'Meiryo'}}>2023年08月</div>
+              <div class="content">
+                <p style={{ margin: "0px" }}>大手総合電気メーカークラウド導入プロジェクト担当</p>
+                <Image
+                  src={"/992.png"}
                   width={200}
                   height={200}
                   alt=""
@@ -205,7 +217,7 @@ export default function Notfound() {
         </p>
 
         <div id="card" style={{ marginTop: "20%", marginBottom: "20%" }}>
-          <h1>Junya Kuramochi</h1>
+          <h1 style={{fontFamily:'Meiryo'}}>Junya Kuramochi</h1>
           <div class="image-crop">
             <Swiper
               modules={[Pagination, Scrollbar, A11y, Autoplay]}
@@ -481,10 +493,10 @@ export default function Notfound() {
 
           <div id="buttons">
             <Scroll to="bottom" smooth="true">
-              <button>Follow</button>
+              <button style={{fontFamily:'Meiryo'}}>Follow</button>
             </Scroll>
             <Scroll to="contact" smooth="true">
-              <button id="msg">Message</button>
+              <button id="msg" style={{fontFamily:'Meiryo'}}>Message</button>
             </Scroll>
           </div>
         </div>
@@ -606,6 +618,7 @@ export default function Notfound() {
               color: "#1b264f",
               zIndex: "100",
               position: "absolute",
+              fontFamily:"Meiryo"
             }}
           >
             created by Junya Kuramochi
