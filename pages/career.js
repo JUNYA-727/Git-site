@@ -71,7 +71,6 @@ export default function Notfound() {
           if (inview1) {
             return (
               <ArrowCircleUpIcon
-                className="fadeup-overall"
                 style={{ fontSize: "40px", color: "#f7f7f7", zIndex: "100" }}
               ></ArrowCircleUpIcon>
             );
@@ -577,7 +576,7 @@ export default function Notfound() {
           }}
         >
           {inview1 && (
-            <div className="fadeup-logo2">
+            <div>
               <IconButton
                 variant="outlined"
                 href="https://www.instagram.com/zerodivisionerror_/"

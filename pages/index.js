@@ -99,7 +99,7 @@ export default function Home() {
         <div className="fadeup-logo">
           <IconButton
             variant="outlined"
-            href="https://www.instagram.com/zerodivisionerror_/"
+            href="https://www.instagram.com/junyq_/"
           >
             <InstagramIcon
               fontSize="large"
