@@ -176,7 +176,7 @@ export default function Career() {
           </ul>
         </div>
       </div>
-      <div style={{ paddingTop: "5%", paddingBottom: "10%" }}>
+      <div style={{ paddingTop: "5%", paddingBottom: "30%" }}>
         <p
           style={{
             marginLeft: "5%",

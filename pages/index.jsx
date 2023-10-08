@@ -7,7 +7,8 @@ export default function Main() {
   return (
     <>
       <First />
-      <Test />
+      {/* <Test /> */}
+
       <Career />
     </>
   );
