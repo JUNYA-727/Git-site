@@ -1,0 +1,75 @@
+.cards {
+    list-style: none;
+    white-space: nowrap;
+    max-width: calc(var(--cover-size) * 6);
+    overflow: scroll;
+  }
+  
+  .cards li {
+    display: inline-block;
+    width: var(--cover-size);
+    aspect-ratio: 1;
+  }
+  
+  .cards li img {
+    width: 100%;
+    height: auto;
+    -webkit-box-reflect: below 0.5em linear-gradient(rgb(0 0 0 / 0), rgb(0 0 0 / 0.25));
+  }
+
+  .cards {
+    list-style: none;
+    white-space: nowrap;
+    max-width: calc(var(--cover-size) * 6);
+    overflow: scroll;
+  }
+  
+  .cards li {
+    display: inline-block;
+    width: var(--cover-size);
+    aspect-ratio: 1;
+  }
+  
+  .cards li img {
+    width: 100%;
+    height: auto;
+    -webkit-box-reflect: below 0.5em linear-gradient(rgb(0 0 0 / 0), rgb(0 0 0 / 0.25));
+  }
+  .cards li {
+    view-timeline-name: --li-in-and-out-of-view;
+    view-timeline-axis: inline;
+  }
+  
+  @keyframes adjust-z-index {
+    0% {
+      z-index: 1;
+    }
+    50% {
+      z-index: 100; /* 中央にあるときは最前面に */
+    }
+    100% {
+      z-index: 1;
+    }
+  }
+  
+  @keyframes rotate-cover {
+    0% {
+      transform: translateX(-100%) rotateY(-45deg);
+    }
+    /* ... 途中のキーフレーム ... */
+    100% {
+      transform: translateX(100%) rotateY(45deg);
+    }
+  }
+  
+  .cards li {
+    animation: linear adjust-z-index both;
+    animation-timeline: --li-in-and-out-of-view;
+    perspective: 40em;
+  }
+  
+  .cards li > img {
+    animation: linear rotate-cover both;
+    animation-timeline: --li-in-and-out-of-view;
+  }
+  

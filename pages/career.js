@@ -1,7 +1,6 @@
 /** @format */
 
 import Image from "next/image";
-
 import { Link as Scroll } from "react-scroll";
 import { useState } from "react";
 import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
