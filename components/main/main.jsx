@@ -91,6 +91,7 @@ function First() {
                 borderRadius: "50%",
                 height: "100%",
                 width: "150px",
+                pointerEvents: "none",
               }}
               id="avatar"
               src="/out_sample1.jpg"
@@ -103,6 +104,7 @@ function First() {
                 borderRadius: "50%",
                 height: "100%",
                 width: "150px",
+                pointerEvents: "none",
               }}
               id="avatar"
               src="/out_sample2.jpg"

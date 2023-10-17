@@ -372,6 +372,7 @@ export default function Career() {
                 <img
                   id="avatar"
                   src="/1BF2FD85-F7C5-4D2E-9290-0F5DB18987BF.jpg"
+                  style={{ pointerEvents: "none" }}
                 ></img>
               </SwiperSlide>
 
@@ -379,15 +380,21 @@ export default function Career() {
                 <img
                   id="avatar"
                   src="/41B5B789-BD88-4BE6-B4BE-928A574AE9A5.jpg"
+                  style={{ pointerEvents: "none" }}
                 ></img>
               </SwiperSlide>
               <SwiperSlide>
-                <img id="avatar" src="/IMG_0912.jpg"></img>
+                <img
+                  id="avatar"
+                  src="/IMG_0912.jpg"
+                  style={{ pointerEvents: "none" }}
+                ></img>
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   id="avatar"
                   src="/DBE7A78B-A5DB-4A74-82DF-6B5C2FC22F84.jpg"
+                  style={{ pointerEvents: "none" }}
                 ></img>
               </SwiperSlide>
             </Swiper>
