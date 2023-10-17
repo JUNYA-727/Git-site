@@ -14,11 +14,45 @@ export default function Career() {
   const [ref1, inview1] = useInView({
     rootMargin: "-1px",
   });
+  const [ref2, inview2] = useInView({
+    rootMargin: "-40px",
+    triggerOnce: "true",
+  });
+  const [ref3, inview3] = useInView({
+    rootMargin: "-80px",
+    triggerOnce: "true",
+  });
+  const [ref4, inview4] = useInView({
+    rootMargin: "-80px",
+    triggerOnce: "tr0ue",
+  });
+  const [ref5, inview5] = useInView({
+    rootMargin: "-80px",
+    triggerOnce: "true",
+  });
+  const [ref6, inview6] = useInView({
+    rootMargin: "-80px",
+    triggerOnce: "true",
+  });
+  const [ref7, inview7] = useInView({
+    rootMargin: "-80px",
+    triggerOnce: "true",
+  });
+  const [ref8, inview8] = useInView({
+    rootMargin: "-80px",
+    triggerOnce: "true",
+  });
+  const [ref9, inview9] = useInView({
+    rootMargin: "-80px",
+    triggerOnce: "true",
+  });
+  const [ref10, inview10] = useInView({
+    rootMargin: "-80px",
+    triggerOnce: "true",
+  });
   const { checked } = useMainContext();
-  console.log(inview1);
   return (
     <div
-      id="main"
       style={{
         width: "100svw",
         alignItems: "center",
@@ -26,6 +60,18 @@ export default function Career() {
         paddingTop: "0px",
       }}
     >
+      <div className="test-div">
+        {inview1 ? (
+          <Scroll to="main" smooth="true">
+            <ArrowCircleUpIcon
+              className="fadeup-button"
+              fontSize="large"
+            ></ArrowCircleUpIcon>
+          </Scroll>
+        ) : (
+          <></>
+        )}
+      </div>
       <div style={{ paddingTop: "5%" }}>
         <p
           style={{
@@ -38,140 +84,256 @@ export default function Career() {
         >
           Photo
         </p>
+
         <div class="timeline" style={{ backgroundColor: "white" }}>
           <ul class="timeline-list">
             <li class="timeline-list-item">
+              <div ref={ref2}> </div>
+
               <div class="date" style={{ margin: "0px", fontFamily: "Meiryo" }}>
-                2019年05月
+                {inview2 ? (
+                  <div className="fadeup-button">2019年05月</div>
+                ) : (
+                  <></>
+                )}
               </div>
-              <div class="content">
-                <p style={{ margin: "0px", fontFamily: "Meiryo" }}>
-                  大学でプログラミングを初めて触る。
-                </p>
-                <Image
-                  src={"/b0581.png"}
-                  width={200}
-                  height={200}
-                  alt=""
-                ></Image>
-              </div>
+              {inview2 ? (
+                <div ref={ref3} class="content">
+                  <p
+                    className="fadeup-button"
+                    style={{ margin: "0px", fontFamily: "Meiryo" }}
+                  >
+                    大学でプログラミングを初めて触る。
+                  </p>
+
+                  <div className="fadeup-button">
+                    <Image
+                      src={"/b0581.png"}
+                      width={200}
+                      height={200}
+                      alt=""
+                      style={{ pointerEvents: "none" }}
+                    ></Image>
+                  </div>
+                </div>
+              ) : (
+                <></>
+              )}
             </li>
 
             <li class="timeline-list-item">
               <div class="date" style={{ margin: "0px", fontFamily: "Meiryo" }}>
-                2020年11月
+                {inview3 ? (
+                  <div className="fadeup-button">2020年11月</div>
+                ) : (
+                  <></>
+                )}
               </div>
-              <div class="content">
-                <p style={{ margin: "0px" }}>Pythonでの開発を始める。</p>
-                <Image
-                  src={"/g08100.png"}
-                  width={200}
-                  height={200}
-                  alt=""
-                ></Image>
-              </div>
+              {inview3 ? (
+                <div ref={ref4} class="content">
+                  <p style={{ margin: "0px" }} className="fadeup-button">
+                    Pythonでの開発を始める。
+                  </p>
+
+                  <Image
+                    className="fadeup-button"
+                    src={"/g08100.png"}
+                    width={200}
+                    height={200}
+                    alt=""
+                    style={{ pointerEvents: "none" }}
+                  ></Image>
+                </div>
+              ) : (
+                <></>
+              )}
             </li>
             <li class="timeline-list-item">
               <div class="date" style={{ margin: "0px", fontFamily: "Meiryo" }}>
-                2021年09月
+                {inview4 ? (
+                  <div className="fadeup-button">2021年09月</div>
+                ) : (
+                  <></>
+                )}
               </div>
-              <div class="content">
-                <p style={{ margin: "0px" }}>
-                  機械学習を用いたビットコイン自動取引botを作成して運用する。
-                </p>
-                <Image
-                  src={"/y1206.png"}
-                  width={200}
-                  height={200}
-                  alt=""
-                ></Image>
-              </div>
+              {inview4 ? (
+                <div ref={ref5} class="content">
+                  <p className="fadeup-button" style={{ margin: "0px" }}>
+                    機械学習を用いたビットコイン自動取引botを作成して運用する。
+                  </p>
+
+                  <Image
+                    className="fadeup-button"
+                    src={"/y1206.png"}
+                    width={200}
+                    height={200}
+                    alt=""
+                    style={{ pointerEvents: "none" }}
+                  ></Image>
+                </div>
+              ) : (
+                <></>
+              )}
             </li>
             <li class="timeline-list-item">
               <div class="date" style={{ margin: "0px", fontFamily: "Meiryo" }}>
-                2021年12月
+                {inview5 ? (
+                  <div className="fadeup-button">2021年12月</div>
+                ) : (
+                  <></>
+                )}
               </div>
-              <div class="content">
-                <p style={{ margin: "0px" }}>
-                  SIGNATEにおいて異常物体検出の精度を競う学生のコンペで入賞｡
-                </p>
-                <Image
-                  src={"/r0191.png"}
-                  width={200}
-                  height={200}
-                  alt=""
-                ></Image>
-              </div>
+              {inview5 ? (
+                <div ref={ref6} class="content">
+                  <p className="fadeup-button" style={{ margin: "0px" }}>
+                    SIGNATEにおいて異常物体検出の精度を競う学生のコンペで入賞｡
+                  </p>
+
+                  <Image
+                    className="fadeup-button"
+                    src={"/r0191.png"}
+                    width={200}
+                    height={200}
+                    alt=""
+                    style={{ pointerEvents: "none" }}
+                  ></Image>
+                </div>
+              ) : (
+                <></>
+              )}
             </li>
             <li class="timeline-list-item">
               <div class="date" style={{ margin: "0px", fontFamily: "Meiryo" }}>
-                2022年03月
+                {inview6 ? (
+                  <div className="fadeup-button">2022年03月</div>
+                ) : (
+                  <></>
+                )}
               </div>
-              <div class="content">
-                <p style={{ margin: "0px" }}>
-                  楽天株式会社にて1ヶ月のエンジニアとして実務インターン。楽天ペイの開発。
-                </p>
-                <Image
-                  src={"/n0004.png"}
-                  width={200}
-                  height={200}
-                  alt=""
-                ></Image>
-              </div>
+              {inview6 ? (
+                <div ref={ref7} class="content">
+                  <p className="fadeup-button" style={{ margin: "0px" }}>
+                    楽天株式会社にて1ヶ月のエンジニアとして実務インターン。楽天ペイの開発。
+                  </p>
+
+                  <Image
+                    className="fadeup-button"
+                    src={"/n0004.png"}
+                    width={200}
+                    height={200}
+                    alt=""
+                    style={{ pointerEvents: "none" }}
+                  ></Image>
+                </div>
+              ) : (
+                <></>
+              )}
             </li>
             <li class="timeline-list-item">
               <div class="date" style={{ margin: "0px", fontFamily: "Meiryo" }}>
-                2022年04月
+                {inview7 ? (
+                  <div className="fadeup-button">2022年04月</div>
+                ) : (
+                  <></>
+                )}
               </div>
-              <div class="content">
-                <p style={{ margin: "0px" }}>React,Next.jsの開発を始める｡</p>
-                <Image
-                  src={"/g0703.png"}
-                  width={200}
-                  height={200}
-                  alt=""
-                ></Image>
-              </div>
+              {inview7 ? (
+                <div ref={ref8} class="content">
+                  <p className="fadeup-button" style={{ margin: "0px" }}>
+                    React,Next.jsの開発を始める｡
+                  </p>
+                  <Image
+                    className="fadeup-button"
+                    src={"/g0703.png"}
+                    width={200}
+                    height={200}
+                    alt=""
+                    style={{ pointerEvents: "none" }}
+                  ></Image>
+                </div>
+              ) : (
+                <></>
+              )}
             </li>
 
             <li class="timeline-list-item">
               <div class="date" style={{ margin: "0px", fontFamily: "Meiryo" }}>
-                2023年12月
+                {inview8 ? (
+                  <div className="fadeup-button">2023年12月</div>
+                ) : (
+                  <></>
+                )}
               </div>
-              <div class="content">
-                <p style={{ margin: "0px" }}>Azure Fundamentals習得</p>
-                <Image
-                  src={"/y0537.png"}
-                  width={200}
-                  height={200}
-                  alt=""
-                ></Image>
-              </div>
+              {inview8 ? (
+                <div ref={ref9} class="content">
+                  <p style={{ margin: "0px" }} className="fadeup-button">
+                    Azure Fundamentals習得
+                  </p>
+
+                  <Image
+                    src={"/y0537.png"}
+                    width={200}
+                    height={200}
+                    alt=""
+                    style={{ pointerEvents: "none" }}
+                    className="fadeup-button"
+                  ></Image>
+                </div>
+              ) : (
+                <></>
+              )}
             </li>
             <li class="timeline-list-item">
               <div class="date" style={{ margin: "0px", fontFamily: "Meiryo" }}>
-                2023年06月
+                {inview9 ? (
+                  <div className="fadeup-button">2023年06月 </div>
+                ) : (
+                  <></>
+                )}
               </div>
-              <div class="content">
-                <p style={{ margin: "0px" }}>Accenture 入社</p>
-                <Image
-                  src={"/b1025.png"}
-                  width={200}
-                  height={200}
-                  alt=""
-                ></Image>
-              </div>
+              {inview9 ? (
+                <div ref={ref10} class="content">
+                  <p className="fadeup-button" style={{ margin: "0px" }}>
+                    Accenture 入社
+                  </p>
+
+                  <Image
+                    className="fadeup-button"
+                    src={"/b1025.png"}
+                    width={200}
+                    height={200}
+                    alt=""
+                    style={{ pointerEvents: "none" }}
+                  ></Image>
+                </div>
+              ) : (
+                <></>
+              )}
             </li>
             <li class="timeline-list-item">
               <div class="date" style={{ margin: "0px", fontFamily: "Meiryo" }}>
-                2023年08月
+                {inview10 ? (
+                  <div className="fadeup-button">2023年08月</div>
+                ) : (
+                  <></>
+                )}
               </div>
-              <div class="content">
-                <p style={{ margin: "0px" }}>
-                  大手総合電気メーカークラウド導入プロジェクト担当
-                </p>
-                <Image src={"/992.png"} width={200} height={200} alt=""></Image>
-              </div>
+              {inview10 ? (
+                <div class="content">
+                  <p className="fadeup-button" style={{ margin: "0px" }}>
+                    大手総合電気メーカークラウド導入プロジェクト担当
+                  </p>
+                  <Image
+                    className="fadeup-button"
+                    src={"/992.png"}
+                    width={200}
+                    height={200}
+                    alt=""
+                  ></Image>
+                </div>
+              ) : (
+                <></>
+              )}
             </li>
           </ul>
         </div>
@@ -230,6 +392,7 @@ export default function Career() {
               </SwiperSlide>
             </Swiper>
           </div>
+
           <div id="bio" ref={ref1}>
             <p style={{ margin: "5px" }} className="font-theme">
               機械学習分野、特にTensorflow、あとクラウドも好き。
@@ -240,6 +403,7 @@ export default function Career() {
             <p style={{ margin: "5px" }} className="font-theme">
               今年はKaggle入賞とAWS SAA習得を目標。
             </p>
+
             <h1 className="h1-head">I have used</h1>
             <div style={{ display: "flex" }}>
               <svg

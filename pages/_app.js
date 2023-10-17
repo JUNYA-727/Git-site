@@ -6,6 +6,7 @@ import '../styles/Home.module.css'
 import '../components/main/main.css'
 import { MainProvider } from '../components/context/ButtonContext'
 import '../components/seconds/test.css'
+
 function MyApp({ Component, pageProps }) {
   return (
     <MainProvider>

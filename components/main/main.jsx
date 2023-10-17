@@ -66,65 +66,93 @@ function First() {
   const { checked, setChecked } = useMainContext();
 
   return (
-    <div
-      style={{
-        height: "100svh",
-        width: "100svw",
-        alignItems: "center",
-        display: "flex",
-        backgroundColor: `${checked ? "#f7f4f0" : "#222222"}`,
-      }}
-      id="First"
-    >
+    <>
+      <div style={{ paddingTop: "-100px" }} id="main"></div>
       <div
         style={{
-          color: "white",
-          textAlign: "center",
-          width: "100%",
+          height: "100svh",
+          alignItems: "center",
+          display: "flex",
+          backgroundColor: `${checked ? "#f7f4f0" : "#222222"}`,
         }}
       >
-        <div style={{ top: "3%", right: "3%", position: "absolute" }}>
-          <MaterialUISwitch
-            checked={checked}
-            onChange={() => setChecked(!checked)}
-          ></MaterialUISwitch>
-        </div>
-
-        <h3
-          className="fadeup-name"
-          style={{ color: `${checked ? "#000" : "#fff"}` }}
+        <div
+          style={{
+            color: "white",
+            textAlign: "center",
+            width: "100%",
+          }}
         >
-          JUNYA KURAMOCHI
-        </h3>
-        <div className="fadeup-logo">
-          <IconButton
-            variant="outlined"
-            href="https://www.instagram.com/junyq_/"
+          {checked ? (
+            <img
+              className="cute"
+              style={{
+                margin: "auto",
+                objectFit: "cover",
+                borderRadius: "50%",
+                height: "100%",
+                width: "150px",
+              }}
+              id="avatar"
+              src="/IMG_3967.png"
+            ></img>
+          ) : (
+            <img
+              className="cute"
+              style={{
+                margin: "auto",
+                objectFit: "cover",
+                borderRadius: "50%",
+                height: "100%",
+                width: "150px",
+              }}
+              id="avatar"
+              src="/IMG_3968.png"
+            ></img>
+          )}
+
+          <div style={{ top: "3%", right: "3%", position: "absolute" }}>
+            <MaterialUISwitch
+              checked={checked}
+              onChange={() => setChecked(!checked)}
+            ></MaterialUISwitch>
+          </div>
+          <h3
+            className="fadeup-name"
+            style={{ color: `${checked ? "#000" : "#fff"}` }}
           >
-            <InstagramIcon
-              fontSize="large"
-              style={{ color: "eb34d5" }}
-            ></InstagramIcon>
-          </IconButton>
-          <IconButton variant="outlined" href="https://github.com/JUNYA-727">
-            <GitHubIcon
-              fontSize="large"
-              style={{ color: `${checked ? "black" : "white"}` }}
-            ></GitHubIcon>
-          </IconButton>
-          <IconButton
-            variant="outlined"
-            href="https://www.linkedin.com/in/junya-kuramochi"
-          >
-            <LinkedInIcon
-              fontSize="large"
-              style={{ color: "#0E76A8" }}
-            ></LinkedInIcon>
-          </IconButton>
+            JUNYA KURAMOCHI
+          </h3>
+          <div className="fadeup-logo">
+            <IconButton
+              variant="outlined"
+              href="https://www.instagram.com/junyq_/"
+            >
+              <InstagramIcon
+                fontSize="large"
+                style={{ color: "eb34d5" }}
+              ></InstagramIcon>
+            </IconButton>
+            <IconButton variant="outlined" href="https://github.com/JUNYA-727">
+              <GitHubIcon
+                fontSize="large"
+                style={{ color: `${checked ? "black" : "white"}` }}
+              ></GitHubIcon>
+            </IconButton>
+            <IconButton
+              variant="outlined"
+              href="https://www.linkedin.com/in/junya-kuramochi"
+            >
+              <LinkedInIcon
+                fontSize="large"
+                style={{ color: "#0E76A8" }}
+              ></LinkedInIcon>
+            </IconButton>
+          </div>
         </div>
+        <div className={checked ? "scrolldown2" : "scrolldown1"}></div>
       </div>
-      <div className={checked ? "scrolldown2" : "scrolldown1"}></div>
-    </div>
+    </>
   );
 }
 export default First;
