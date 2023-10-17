@@ -85,7 +85,6 @@ function First() {
         >
           {checked ? (
             <img
-              className="cute"
               style={{
                 margin: "auto",
                 objectFit: "cover",
@@ -94,11 +93,10 @@ function First() {
                 width: "150px",
               }}
               id="avatar"
-              src="/IMG_3967.jpg"
+              src="/out_sample1.jpg"
             ></img>
           ) : (
             <img
-              className="cute"
               style={{
                 margin: "auto",
                 objectFit: "cover",
@@ -107,7 +105,7 @@ function First() {
                 width: "150px",
               }}
               id="avatar"
-              src="/IMG_3968.jpg"
+              src="/out_sample2.jpg"
             ></img>
           )}
 

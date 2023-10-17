@@ -37,12 +37,12 @@ a {
 }
 .fadeup-name{
   animation-name:fadeup;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
   @keyframes fadeup{
       from{
           opacity: 0;
-          transform:translateY(30px)
+          transform:translateY(10px)
       }
       to{
           opacity: 1;
