@@ -94,7 +94,7 @@ function First() {
                 width: "150px",
               }}
               id="avatar"
-              src="/IMG_3967.png"
+              src="/IMG_3967.jpg"
             ></img>
           ) : (
             <img
@@ -107,7 +107,7 @@ function First() {
                 width: "150px",
               }}
               id="avatar"
-              src="/IMG_3968.png"
+              src="/IMG_3968.jpg"
             ></img>
           )}
 
