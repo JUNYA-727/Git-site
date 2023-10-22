@@ -6,6 +6,7 @@ import WebAssetIcon from "@mui/icons-material/WebAsset";
 import { IconButton } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import Switch from "@mui/material/Switch";
+import PhotoLibraryIcon from '@mui/icons-material/PhotoLibrary';
 import React, { createContext, useState, useContext } from "react";
 import { useMainContext } from "../context/ButtonContext";
 
@@ -133,12 +134,16 @@ function First() {
                 style={{ color: "eb34d5" }}
               ></InstagramIcon>
             </IconButton>
-            <IconButton variant="outlined" href="https://github.com/JUNYA-727">
-              <GitHubIcon
+            <IconButton
+              variant="outlined"
+              href="https://blog-junya-727.vercel.app/"
+            >
+              <PhotoLibraryIcon 
                 fontSize="large"
-                style={{ color: `${checked ? "black" : "white"}` }}
-              ></GitHubIcon>
+                style={{ color: "#56aa59" }}
+              ></PhotoLibraryIcon>
             </IconButton>
+
             <IconButton
               variant="outlined"
               href="https://www.linkedin.com/in/junya-kuramochi"
@@ -147,6 +152,12 @@ function First() {
                 fontSize="large"
                 style={{ color: "#0E76A8" }}
               ></LinkedInIcon>
+            </IconButton>
+            <IconButton variant="outlined" href="https://github.com/JUNYA-727">
+              <GitHubIcon
+                fontSize="large"
+                style={{ color: `${checked ? "black" : "white"}` }}
+              ></GitHubIcon>
             </IconButton>
           </div>
         </div>
