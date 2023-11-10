@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .cards {
     list-style: none;
     white-space: nowrap;
@@ -113,7 +114,7 @@
 .scroll-parent {
   overflow: hidden;
   position: relative;
-  width: 300%;
+  width: 270%;
   height: inherit;
 }
  
@@ -155,4 +156,43 @@
   to {
     left: 0%;
   }
+}
+
+#page-top {
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  height: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  transform: rotate(90deg);
+  font-size: 90%;
+  line-height: 1.5rem;
+  color: #ffffff;
+  padding: 0 0 0 35px;
+  border-top: solid 1px;
+  animation: flicker 1.5s linear infinite;
+}
+#page-top::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  width: 15px;
+  border-top: solid 1px;
+  transform: rotate(35deg);
+  transform-origin: left top;
+
+}
+@keyframes flicker {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.profile-name{
+  font-family: 'Roboto', sans-serif;
 }

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Roboto:ital,wght@1,300&display=swap');
 @supports (-webkit-touch-callout: none) {
   html {
     height: -webkit-fill-available;
@@ -91,7 +93,7 @@ a {
       width: 35%;
       padding: 0 0 0 1px;
       color:#302b27;
-      font-weight: bold;
+      font-family: 'Noto Sans JP', sans-serif;
       font-size:12px
     }
     

@@ -2,11 +2,10 @@
 import InstagramIcon from "@mui/icons-material/Instagram";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import WebAssetIcon from "@mui/icons-material/WebAsset";
 import { IconButton } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import Switch from "@mui/material/Switch";
-import PhotoLibraryIcon from '@mui/icons-material/PhotoLibrary';
+import PhotoLibraryIcon from "@mui/icons-material/PhotoLibrary";
 import React, { createContext, useState, useContext } from "react";
 import { useMainContext } from "../context/ButtonContext";
 
@@ -138,7 +137,7 @@ function First() {
               variant="outlined"
               href="https://blog-junya-727.vercel.app/"
             >
-              <PhotoLibraryIcon 
+              <PhotoLibraryIcon
                 fontSize="large"
                 style={{ color: "#56aa59" }}
               ></PhotoLibraryIcon>

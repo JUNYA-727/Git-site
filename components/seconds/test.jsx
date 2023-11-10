@@ -255,6 +255,15 @@ export default function Career() {
         </g>
       </svg>
     </div>,
+    <div {...div_logo} key={16}>
+      <svg
+        {...logo_setting}
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 128 128"
+      >
+        <path d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64c11.2 0 21.7-2.9 30.8-7.9L48.4 55.3v36.6h-6.8V41.8h6.8l50.5 75.8C116.4 106.2 128 86.5 128 64c0-35.3-28.7-64-64-64zm22.1 84.6l-7.5-11.3V41.8h7.5v42.8z" />
+      </svg>
+    </div>,
     <div {...div_logo} key={12}>
       <svg
         viewBox="0 0 128 128"
@@ -362,10 +371,18 @@ export default function Career() {
       <div className="test-div">
         {inview1 ? (
           <Scroll to="main" smooth="true">
-            <ArrowCircleUpIcon
-              className="fadeup-button"
-              fontSize="large"
-            ></ArrowCircleUpIcon>
+            <a
+              href="#"
+              id="page-top"
+              style={{
+                marginLeft: "5%",
+
+                marginBottom: "0px",
+                color: `${checked ? "black" : "#fff"}`,
+              }}
+            >
+              TOP
+            </a>
           </Scroll>
         ) : (
           <></>
@@ -400,7 +417,7 @@ export default function Career() {
                 <div ref={ref3} class="content">
                   <p
                     className="fadeup-button"
-                    style={{ margin: "0px", fontFamily: "Meiryo" }}
+                    style={{ margin: "0px", fontFamily: "Noto Sans JP" }}
                   >
                     大学でプログラミングを初めて触る。
                   </p>
@@ -430,7 +447,10 @@ export default function Career() {
               </div>
               {inview3 ? (
                 <div ref={ref4} class="content">
-                  <p style={{ margin: "0px" }} className="fadeup-button">
+                  <p
+                    style={{ margin: "0px", fontFamily: "Noto Sans JP" }}
+                    className="fadeup-button"
+                  >
                     Pythonでの開発を始める。
                   </p>
 
@@ -448,7 +468,14 @@ export default function Career() {
               )}
             </li>
             <li class="timeline-list-item">
-              <div class="date" style={{ margin: "0px", fontFamily: "Meiryo" }}>
+              <div
+                class="date"
+                style={{
+                  margin: "0px",
+                  fontFamily: "Meiryo",
+                  fontFamily: "Noto Sans JP",
+                }}
+              >
                 {inview4 ? (
                   <div className="fadeup-button">2021年09月</div>
                 ) : (
@@ -457,7 +484,10 @@ export default function Career() {
               </div>
               {inview4 ? (
                 <div ref={ref5} class="content">
-                  <p className="fadeup-button" style={{ margin: "0px" }}>
+                  <p
+                    className="fadeup-button"
+                    style={{ margin: "0px", fontFamily: "Noto Sans JP" }}
+                  >
                     機械学習を用いたビットコイン自動取引botを作成して運用する。
                   </p>
 
@@ -484,7 +514,10 @@ export default function Career() {
               </div>
               {inview5 ? (
                 <div ref={ref6} class="content">
-                  <p className="fadeup-button" style={{ margin: "0px" }}>
+                  <p
+                    className="fadeup-button"
+                    style={{ margin: "0px", fontFamily: "Noto Sans JP" }}
+                  >
                     SIGNATEにおいて異常物体検出の精度を競う学生のコンペで入賞｡
                   </p>
 
@@ -511,7 +544,10 @@ export default function Career() {
               </div>
               {inview6 ? (
                 <div ref={ref7} class="content">
-                  <p className="fadeup-button" style={{ margin: "0px" }}>
+                  <p
+                    className="fadeup-button"
+                    style={{ margin: "0px", fontFamily: "Noto Sans JP" }}
+                  >
                     楽天株式会社にて1ヶ月のエンジニアとして実務インターン。楽天ペイの開発。
                   </p>
 
@@ -538,7 +574,10 @@ export default function Career() {
               </div>
               {inview7 ? (
                 <div ref={ref8} class="content">
-                  <p className="fadeup-button" style={{ margin: "0px" }}>
+                  <p
+                    className="fadeup-button"
+                    style={{ margin: "0px", fontFamily: "Noto Sans JP" }}
+                  >
                     React,Next.jsの開発を始める｡
                   </p>
                   <Image
@@ -565,7 +604,10 @@ export default function Career() {
               </div>
               {inview8 ? (
                 <div ref={ref9} class="content">
-                  <p style={{ margin: "0px" }} className="fadeup-button">
+                  <p
+                    style={{ margin: "0px", fontFamily: "Noto Sans JP" }}
+                    className="fadeup-button"
+                  >
                     Azure Fundamentals習得
                   </p>
 
@@ -592,7 +634,10 @@ export default function Career() {
               </div>
               {inview9 ? (
                 <div ref={ref10} class="content">
-                  <p className="fadeup-button" style={{ margin: "0px" }}>
+                  <p
+                    className="fadeup-button"
+                    style={{ margin: "0px", fontFamily: "Noto Sans JP" }}
+                  >
                     Accenture 入社
                   </p>
 
@@ -619,7 +664,10 @@ export default function Career() {
               </div>
               {inview10 ? (
                 <div class="content">
-                  <p className="fadeup-button" style={{ margin: "0px" }}>
+                  <p
+                    className="fadeup-button"
+                    style={{ margin: "0px", fontFamily: "Noto Sans JP" }}
+                  >
                     大手総合電気メーカークラウド導入プロジェクト担当
                   </p>
                   <Image
@@ -651,7 +699,15 @@ export default function Career() {
         </p>
 
         <div id="card" style={{ marginTop: "20%" }}>
-          <h1 style={{ fontFamily: "Meiryo" }}>Junya Kuramochi</h1>
+          <h3
+            style={{
+              textAlign: "center",
+              paddingTop: "10%",
+            }}
+            className="profile-name"
+          >
+            JUNYA KURAMOCHI
+          </h3>
           <div class="image-crop">
             <Swiper
               modules={[Pagination, Scrollbar, A11y, Autoplay]}
@@ -701,13 +757,11 @@ export default function Career() {
           </div>
 
           <div id="bio" ref={ref1}>
-            <p style={{ margin: "5px" }} className="font-theme">
-              機械学習分野、特にTensorflow、あとクラウドも好き。
-            </p>
-            <p style={{ margin: "5px" }} className="font-theme">
+            <p style={{ fontFamily: "Noto Sans JP" }} className="font-theme">
+              機械学習分野、特にTensorFlow、あとクラウド分野が好き。
+              <br></br>
               今はAWSとAzureを主に学習しています。
-            </p>
-            <p style={{ margin: "5px" }} className="font-theme">
+              <br></br>
               今年はKaggle入賞とAWS SAA習得を目標。
             </p>
 
