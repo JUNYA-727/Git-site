@@ -68,11 +68,16 @@ export default function Career() {
   };
   const logo_setting = {
     style: {
-      width: "80%",
+      width: "100%",
+      height: "100%",
+      paddingRight: "10%",
     },
   };
+  const div_logo = {
+    style: {},
+  };
   const tech_logo = [
-    <div key={1}>
+    <div {...div_logo} key={1}>
       <svg {...logo_setting} viewBox="0 0 128 128">
         <path
           fill="#00618A"
@@ -80,7 +85,7 @@ export default function Career() {
         ></path>
       </svg>
     </div>,
-    <div key={2}>
+    <div {...div_logo} key={2}>
       <svg viewBox="0 0 128 128" {...logo_setting}>
         <linearGradient
           id="python-original-a"
@@ -135,13 +140,13 @@ export default function Career() {
         ></path>
       </svg>
     </div>,
-    <div key={3}>
+    <div {...div_logo} key={3}>
       <svg viewBox="0 0 128 128" {...logo_setting}>
         <path d="M59.448 0h20.93v96.88c-10.737 2.04-18.62 2.855-27.181 2.855-25.551-.001-38.87-11.551-38.87-33.705 0-21.338 14.135-35.2 36.015-35.2 3.398 0 5.98.272 9.106 1.087zm0 48.765c-2.446-.815-4.485-1.086-7.067-1.086-10.6 0-16.717 6.523-16.717 17.939 0 11.145 5.845 17.26 16.582 17.26 2.309 0 4.212-.136 7.202-.542z"></path>
         <path d="M113.672 32.321V80.84c0 16.717-1.224 24.735-4.893 31.666-3.398 6.661-7.883 10.873-17.124 15.494l-19.435-9.241c9.242-4.35 13.726-8.153 16.58-14 2.99-5.979 3.943-12.91 3.943-31.122V32.321zM92.742.111h20.93v21.474h-20.93z"></path>
       </svg>
     </div>,
-    <div key={4}>
+    <div {...div_logo} key={4}>
       <svg viewBox="0 0 128 128" {...logo_setting}>
         <path
           fill="#010101"
@@ -149,7 +154,7 @@ export default function Career() {
         ></path>
       </svg>
     </div>,
-    <div key={5}>
+    <div {...div_logo} key={5}>
       <svg viewBox="0 0 128 128" {...logo_setting}>
         <path
           d="M112.871 66.602c9.004 5.277 15.055 15.027 15.074 26.191.032 16.805-13.617 30.453-30.48 30.48-16.863.032-30.559-13.57-30.59-30.375-.02-11.164 5.996-20.933 14.984-26.246l8.774 14.778c.219.37.094.847-.262 1.09-3.32 2.25-5.496 6.046-5.488 10.347.012 6.895 5.633 12.477 12.55 12.461 6.919-.012 12.516-5.61 12.504-12.504-.007-4.3-2.195-8.09-5.523-10.328-.355-.242-.484-.719-.266-1.09zm0 0"
@@ -166,7 +171,7 @@ export default function Career() {
         ></path>
       </svg>
     </div>,
-    <div key={6}>
+    <div {...div_logo} key={6}>
       <svg viewBox="0 0 128 128" {...logo_setting}>
         <path
           fill="#E44D26"
@@ -186,7 +191,7 @@ export default function Career() {
         ></path>
       </svg>
     </div>,
-    <div key={7}>
+    <div {...div_logo} key={7}>
       <svg viewBox="0 0 128 128" {...logo_setting}>
         <path
           fill="#1572B6"
@@ -214,7 +219,7 @@ export default function Career() {
         ></path>
       </svg>
     </div>,
-    <div key={8}>
+    <div {...div_logo} key={8}>
       <svg viewBox="0 0 128 128" {...logo_setting}>
         <path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185H1.408z"></path>
         <path
@@ -223,7 +228,7 @@ export default function Career() {
         ></path>
       </svg>
     </div>,
-    <div key={9}>
+    <div {...div_logo} key={9}>
       <svg viewBox="0 0 128 128" {...logo_setting}>
         <path fill="#fff" d="M22.67 47h99.67v73.67H22.67z"></path>
         <path
@@ -234,7 +239,7 @@ export default function Career() {
       </svg>
     </div>,
 
-    <div key={10}>
+    <div {...div_logo} key={10}>
       <svg viewBox="0 0 128 128" {...logo_setting}>
         <path
           fill="#83CD29"
@@ -242,7 +247,7 @@ export default function Career() {
         ></path>
       </svg>
     </div>,
-    <div key={11}>
+    <div {...div_logo} key={11}>
       <svg viewBox="0 0 128 128" {...logo_setting}>
         <g fill="#61DAFB">
           <circle cx="64" cy="64" r="11.4"></circle>
@@ -250,7 +255,7 @@ export default function Career() {
         </g>
       </svg>
     </div>,
-    <div key={12}>
+    <div {...div_logo} key={12}>
       <svg
         viewBox="0 0 128 128"
         xmlns="http://www.w3.org/2000/svg"
@@ -266,7 +271,7 @@ export default function Career() {
         />
       </svg>
     </div>,
-    <div key={13}>
+    <div {...div_logo} key={13}>
       <svg
         {...logo_setting}
         viewBox="0 0 128 128"
@@ -331,7 +336,7 @@ export default function Career() {
         />
       </svg>
     </div>,
-    <div key={15}>
+    <div {...div_logo} key={15}>
       <svg
         {...logo_setting}
         xmlns="http://www.w3.org/2000/svg"
@@ -707,9 +712,16 @@ export default function Career() {
             </p>
 
             <h1 className="h1-head">I have used</h1>
-            <Slider {...settings} style={{ color: "white" }}>
-              {tech_logo.map((div, index) => div)}
-            </Slider>
+            <div class="container">
+              <div class="scroll-parent">
+                <div class="scroll-child">
+                  {tech_logo.map((div, index) => div)}
+                </div>
+                <div class="scroll-child">
+                  {tech_logo.map((div, index) => div)}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
