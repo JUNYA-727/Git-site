@@ -83,6 +83,7 @@
 }
 
 .fadeup-button{
+  font-family: "Noto Sans JP";
   animation-name:fadeup;
   animation-duration: 5s;
 }
