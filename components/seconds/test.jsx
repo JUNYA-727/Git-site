@@ -408,11 +408,7 @@ export default function Career() {
 
               <div
                 class="date"
-                style={{
-                  margin: "0px",
-                  fontFamily: "Meiryo",
-                  fontFamily: "Noto Sans JP",
-                }}
+                style={{ margin: "0px", fontFamily: "Noto Sans JP" }}
               >
                 {inview2 ? (
                   <div className="fadeup-button">2019年05月</div>
@@ -426,7 +422,6 @@ export default function Career() {
                     className="fadeup-button"
                     style={{
                       margin: "0px",
-                      fontFamily: "Meiryo",
                       fontFamily: "Noto Sans JP",
                     }}
                   >
@@ -453,7 +448,6 @@ export default function Career() {
                 class="date"
                 style={{
                   margin: "0px",
-                  fontFamily: "Meiryo",
                   fontFamily: "Noto Sans JP",
                 }}
               >
@@ -468,7 +462,6 @@ export default function Career() {
                   <p
                     style={{
                       margin: "0px",
-                      fontFamily: "Meiryo",
                       fontFamily: "Noto Sans JP",
                     }}
                     className="fadeup-button"
@@ -494,7 +487,6 @@ export default function Career() {
                 class="date"
                 style={{
                   margin: "0px",
-                  fontFamily: "Meiryo",
                   fontFamily: "Noto Sans JP",
                 }}
               >
@@ -529,11 +521,7 @@ export default function Career() {
             <li class="timeline-list-item">
               <div
                 class="date"
-                style={{
-                  margin: "0px",
-                  fontFamily: "Meiryo",
-                  fontFamily: "Noto Sans JP",
-                }}
+                style={{ margin: "0px", fontFamily: "Noto Sans JP" }}
               >
                 {inview5 ? (
                   <div className="fadeup-button">2021年12月</div>
@@ -566,11 +554,7 @@ export default function Career() {
             <li class="timeline-list-item">
               <div
                 class="date"
-                style={{
-                  margin: "0px",
-                  fontFamily: "Meiryo",
-                  fontFamily: "Noto Sans JP",
-                }}
+                style={{ margin: "0px", fontFamily: "Noto Sans JP" }}
               >
                 {inview6 ? (
                   <div className="fadeup-button">2022年03月</div>
@@ -603,11 +587,7 @@ export default function Career() {
             <li class="timeline-list-item">
               <div
                 class="date"
-                style={{
-                  margin: "0px",
-                  fontFamily: "Meiryo",
-                  fontFamily: "Noto Sans JP",
-                }}
+                style={{ margin: "0px", fontFamily: "Noto Sans JP" }}
               >
                 {inview7 ? (
                   <div className="fadeup-button">2022年04月</div>
@@ -640,11 +620,7 @@ export default function Career() {
             <li class="timeline-list-item">
               <div
                 class="date"
-                style={{
-                  margin: "0px",
-                  fontFamily: "Meiryo",
-                  fontFamily: "Noto Sans JP",
-                }}
+                style={{ margin: "0px", fontFamily: "Noto Sans JP" }}
               >
                 {inview8 ? (
                   <div className="fadeup-button">2023年12月</div>
@@ -677,11 +653,7 @@ export default function Career() {
             <li class="timeline-list-item">
               <div
                 class="date"
-                style={{
-                  margin: "0px",
-                  fontFamily: "Meiryo",
-                  fontFamily: "Noto Sans JP",
-                }}
+                style={{ margin: "0px", fontFamily: "Noto Sans JP" }}
               >
                 {inview9 ? (
                   <div className="fadeup-button">2023年06月 </div>
@@ -714,11 +686,7 @@ export default function Career() {
             <li class="timeline-list-item">
               <div
                 class="date"
-                style={{
-                  margin: "0px",
-                  fontFamily: "Meiryo",
-                  fontFamily: "Noto Sans JP",
-                }}
+                style={{ margin: "0px", fontFamily: "Noto Sans JP" }}
               >
                 {inview10 ? (
                   <div className="fadeup-button">2023年08月</div>
