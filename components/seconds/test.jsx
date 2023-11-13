@@ -686,7 +686,6 @@ export default function Career() {
         <p
           style={{
             marginLeft: "5%",
-
             marginBottom: "0px",
             color: `${checked ? "black" : "#fff"}`,
           }}
@@ -695,7 +694,7 @@ export default function Career() {
           Profile
         </p>
 
-        <div id="card" style={{ marginTop: "20%" }}>
+        <div id="card" style={{ marginTop: "20%", marginBottom: "0%" }}>
           <h3
             style={{
               textAlign: "center",

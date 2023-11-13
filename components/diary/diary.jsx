@@ -15,7 +15,7 @@ const Diary = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     centerMode: true,
-    centerPadding: "22%", // Adjust this value as needed
+    centerPadding: "20%", // Adjust this value as needed
     arrows: false,
     responsive: [
       {
@@ -28,65 +28,84 @@ const Diary = () => {
   };
 
   return (
-    <div
-      style={{
-        width: "100vw",
-        alignItems: "center",
-        backgroundColor: `${checked ? "#f7f4f0" : "#222222"}`,
-        paddingBottom: "100px",
-      }}
-    >
-      <p
+    <>
+      <div
         style={{
-          marginLeft: "5%",
+          width: "100svw",
+          alignItems: "center",
+          paddingTop: "1%",
           backgroundColor: `${checked ? "#f7f4f0" : "#222222"}`,
-          color: `${checked ? "black" : "#fff"}`,
-          margin: 0,
           paddingBottom: "10%",
         }}
-        className="title"
       >
-        News
-      </p>
+        <p
+          style={{
+            marginLeft: "5%",
+            marginBottom: "0px",
+            color: `${checked ? "black" : "#fff"}`,
+          }}
+          className="title"
+        >
+          Profile
+        </p>
+      </div>
       <div
         style={{
           width: "100vw",
           alignItems: "center",
-          textAlign: "center",
-          color: `${checked ? "#222222" : "#f7f4f0"}`,
+          backgroundColor: `${checked ? "#f7f4f0" : "#222222"}`,
+          paddingBottom: "100px",
+          paddingLeft: "3%",
+          paddingRight: "3%",
         }}
       >
-        <Slider {...settings}>
-          <div style={{ width: "100%" }}>
-            <img
-              id="avatar"
-              src="/comingsoon.png"
-              alt="Coming Soon"
-              style={{ width: "200px", height: "200px" }}
-            />
-            <p>Coming Soon...</p>
-          </div>
-          <div>
-            <img
-              id="avatar"
-              src="/comingsoon.png"
-              alt="Coming Soon"
-              style={{ width: "200px", height: "200px" }}
-            />
-            <p>Coming Soon...</p>
-          </div>
-          <div>
-            <img
-              id="avatar"
-              src="/comingsoon.png"
-              alt="Coming Soon"
-              style={{ width: "200px", height: "200px" }}
-            />
-            <p>Coming Soon...</p>
-          </div>
-        </Slider>
+        <div
+          style={{
+            color: `${checked ? "black" : "#fff"}`,
+            textAlign: "center",
+          }}
+        >
+          <Slider {...settings}>
+            <div
+              style={{
+                width: "200px",
+                backgroundColor: `${checked ? "#f7f4f0" : "#222222"}`,
+                border: "2px solid white",
+              }}
+            >
+              <img
+                id="avatar"
+                src="/comingsoon.png"
+                alt="Coming Soon"
+                style={{
+                  width: "200px",
+                  height: "200px",
+                }}
+              />
+              <p>Coming Soon...</p>
+            </div>
+            <div>
+              <img
+                id="avatar"
+                src="/comingsoon.png"
+                alt="Coming Soon"
+                style={{ width: "200px", height: "200px" }}
+              />
+              <p>Coming Soon...</p>
+            </div>
+            <div>
+              <img
+                id="avatar"
+                src="/comingsoon.png"
+                alt="Coming Soon"
+                style={{ width: "200px", height: "200px" }}
+              />
+              <p>Coming Soon...</p>
+            </div>
+          </Slider>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
