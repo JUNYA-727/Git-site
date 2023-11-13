@@ -2,8 +2,6 @@
 
 import Image from "next/image";
 import { Link as Scroll } from "react-scroll";
-import { useState } from "react";
-import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Scrollbar, A11y, Autoplay } from "swiper";
 import "swiper/css";
@@ -12,11 +10,10 @@ import { useInView } from "react-intersection-observer";
 import { useMainContext } from "../context/ButtonContext";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
 
 export default function Career() {
   const [ref1, inview1] = useInView({
-    rootMargin: "-1px",
+    rootMargin: "-100px",
   });
   const [ref2, inview2] = useInView({
     rootMargin: "-40px",
@@ -365,7 +362,7 @@ export default function Career() {
         width: "100svw",
         alignItems: "center",
         backgroundColor: `${checked ? "#f7f4f0" : "#222222"}`,
-        paddingTop: "0px",
+        marginBottom: "0px",
       }}
     >
       <div className="test-div">
