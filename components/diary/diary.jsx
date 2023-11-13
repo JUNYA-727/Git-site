@@ -46,7 +46,7 @@ const Diary = () => {
           }}
           className="title"
         >
-          Profile
+          News
         </p>
       </div>
       <div
@@ -66,13 +66,7 @@ const Diary = () => {
           }}
         >
           <Slider {...settings}>
-            <div
-              style={{
-                width: "200px",
-                backgroundColor: `${checked ? "#f7f4f0" : "#222222"}`,
-                border: "2px solid white",
-              }}
-            >
+            <div å>
               <img
                 id="avatar"
                 src="/comingsoon.png"
