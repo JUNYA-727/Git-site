@@ -66,30 +66,18 @@ const Diary = () => {
           }}
         >
           <Slider {...settings}>
-            <div å>
-              <img
-                id="avatar"
-                src="/comingsoon.png"
-                alt="Coming Soon"
-                style={{
-                  width: "200px",
-                  height: "200px",
-                }}
-              />
-              <p>Coming Soon...</p>
-            </div>
-            <a href="/test">
+          <a href="/">
             <div>
-             
               <img
                 id="avatar"
                 src="/comingsoon.png"
                 alt="Coming Soon"
                 style={{ width: "200px", height: "200px" }}
               />
-              <p>Co</p>
+              <p>Coming Soon...</p>
             </div>
             </a>
+            <a href="/">
             <div>
               <img
                 id="avatar"
@@ -99,6 +87,18 @@ const Diary = () => {
               />
               <p>Coming Soon...</p>
             </div>
+            </a>
+            <a href="/">
+            <div>
+              <img
+                id="avatar"
+                src="/comingsoon.png"
+                alt="Coming Soon"
+                style={{ width: "200px", height: "200px" }}
+              />
+              <p>Coming Soon...</p>
+            </div>
+            </a>
           </Slider>
         </div>
       </div>
