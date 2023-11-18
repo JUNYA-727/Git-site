@@ -25,7 +25,7 @@ function Test() {
             }}
             className="title"
           >
-            Photo
+            Career
           </p>
           <div class="pin-wrap">
             <div

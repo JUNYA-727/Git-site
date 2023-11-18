@@ -3,14 +3,14 @@ import { useMainContext } from "../context/ButtonContext";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import Image from "next/image";
 const Diary = () => {
   const { checked } = useMainContext();
   const settings = {
     dots: true,
     infinite: true,
     speed: 1000,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -78,15 +78,18 @@ const Diary = () => {
               />
               <p>Coming Soon...</p>
             </div>
+            <a href="/test">
             <div>
+             
               <img
                 id="avatar"
                 src="/comingsoon.png"
                 alt="Coming Soon"
                 style={{ width: "200px", height: "200px" }}
               />
-              <p>Coming Soon...</p>
+              <p>Co</p>
             </div>
+            </a>
             <div>
               <img
                 id="avatar"

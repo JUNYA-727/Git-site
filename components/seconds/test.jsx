@@ -13,7 +13,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 export default function Career() {
   const [ref1, inview1] = useInView({
-    rootMargin: "-100px",
+    rootMargin: "-50px",
   });
   const [ref2, inview2] = useInView({
     rootMargin: "-40px",
@@ -373,8 +373,8 @@ export default function Career() {
               id="page-top"
               style={{
                 marginLeft: "5%",
-
-                marginBottom: "0px",
+                marginBottom:"5%",
+                marginRight:"3%",
                 color: `${checked ? "black" : "#fff"}`,
               }}
             >
@@ -395,7 +395,7 @@ export default function Career() {
           }}
           className="title"
         >
-          Photo
+          Career
         </p>
 
         <div class="timeline" style={{ backgroundColor: "white" }}>
