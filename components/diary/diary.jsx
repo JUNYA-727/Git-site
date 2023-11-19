@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
+import Link from 'next/link';
 const Diary = () => {
   const { checked } = useMainContext();
   const settings = {
@@ -66,39 +67,45 @@ const Diary = () => {
           }}
         >
           <Slider {...settings}>
-          <a href="/">
-            <div>
-              <img
-                id="avatar"
-                src="/comingsoon.png"
-                alt="Coming Soon"
-                style={{ width: "200px", height: "200px" }}
-              />
-              <p>Coming Soon...</p>
-            </div>
-            </a>
-            <a href="/">
-            <div>
-              <img
-                id="avatar"
-                src="/comingsoon.png"
-                alt="Coming Soon"
-                style={{ width: "200px", height: "200px" }}
-              />
-              <p>Coming Soon...</p>
-            </div>
-            </a>
-            <a href="/">
-            <div>
-              <img
-                id="avatar"
-                src="/comingsoon.png"
-                alt="Coming Soon"
-                style={{ width: "200px", height: "200px" }}
-              />
-              <p>Coming Soon...</p>
-            </div>
-            </a>
+          <Link href="/">
+
+<div>
+  <img
+    id="avatar"
+    src="/comingsoon.png"
+    alt="Coming Soon"
+    style={{ width: "200px", height: "200px" }}
+  />
+  <p>Coming Soon...</p>
+</div>
+
+</Link>
+            <Link href="/">
+
+        <div>
+          <img
+            id="avatar"
+            src="/comingsoon.png"
+            alt="Coming Soon"
+            style={{ width: "200px", height: "200px" }}
+          />
+          <p>Coming Soon...</p>
+        </div>
+
+    </Link>
+            <Link href="/">
+
+        <div>
+          <img
+            id="avatar"
+            src="/comingsoon.png"
+            alt="Coming Soon"
+            style={{ width: "200px", height: "200px" }}
+          />
+          <p>Coming Soon...</p>
+        </div>
+
+    </Link>
           </Slider>
         </div>
       </div>
