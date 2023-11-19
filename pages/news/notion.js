@@ -8,4 +8,4 @@ const notion = new Client({
   auth: NOTION_API_KEY,
 });
 
-export { notion };
+export default notion;
