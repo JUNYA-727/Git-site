@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import notion  from './notion';
+import notion  from '../../components/notion/notion';
 
 export default function BlogPage({ posts }) {
   return (

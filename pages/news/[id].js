@@ -1,6 +1,6 @@
-import notion from './notion';
+import notion from '../../components/notion/notion';
 import { Fragment } from 'react';
-import {renderBlock} from './renderer'
+import {renderBlock} from '../../components/notion/renderer'
 export async function getServerSideProps(context) {
   const { id } = context.params;
 
