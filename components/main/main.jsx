@@ -5,10 +5,9 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { IconButton } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import Switch from "@mui/material/Switch";
-import PhotoLibraryIcon from "@mui/icons-material/PhotoLibrary";
 import React, { createContext, useState, useContext } from "react";
 import { useMainContext } from "../context/ButtonContext";
-
+import ArticleIcon from '@mui/icons-material/Article';
 function First() {
   /*      <Image
         src={"https://junya-727.github.io/blog/_A6A5059.jpg"}
@@ -135,12 +134,12 @@ function First() {
             </IconButton>
             <IconButton
               variant="outlined"
-              href="https://blog-junya-727.vercel.app/"
+              href="https://article-junya-727.vercel.app/"
             >
-              <PhotoLibraryIcon
+              <ArticleIcon
                 fontSize="large"
                 style={{ color: "#56aa59" }}
-              ></PhotoLibraryIcon>
+              ></ArticleIcon>
             </IconButton>
 
             <IconButton
