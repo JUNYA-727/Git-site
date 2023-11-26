@@ -67,16 +67,16 @@ const Diary = () => {
           }}
         >
           <Slider {...settings}>
-          <Link href="/">
+          <Link href="https://junya-article.vercel.app/article/Notion">
 
 <div>
   <img
     id="avatar"
-    src="/comingsoon.png"
+    src="/notion.jpg"
     alt="Coming Soon"
     style={{ width: "200px", height: "200px" }}
   />
-  <p>Coming Soon...</p>
+  <p>Notion APIを使ってブログサイトを作成したよ</p>
 </div>
 
 </Link>
