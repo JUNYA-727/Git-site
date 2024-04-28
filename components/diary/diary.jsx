@@ -30,7 +30,7 @@ const Diary = () => {
 
   return (
     <>
-      <div
+      {/* <div
         style={{
           width: "100svw",
           alignItems: "center",
@@ -108,7 +108,7 @@ const Diary = () => {
     </Link>
           </Slider>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

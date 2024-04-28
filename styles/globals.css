@@ -6,11 +6,13 @@
   html {
     height: -webkit-fill-available;
   }
+
   body {
     min-height: 100vh;
     min-height: -webkit-fill-available;
   }
 }
+
 html,
 body {
   padding: 0;
@@ -32,456 +34,505 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
-    color:#302b27;
+    color: #302b27;
     background-color: #f5f3f5;
   }
 }
-.fadeup-name{
-  animation-name:fadeup;
+
+.fadeup-name {
+  animation-name: fadeup;
   animation-duration: 1s;
 }
-  @keyframes fadeup{
-      from{
-          opacity: 0;
-          transform:translateY(10px)
-      }
-      to{
-          opacity: 1;
-          transform: translateY(0px);
-      }
 
+@keyframes fadeup {
+  from {
+    opacity: 0;
+    transform: translateY(10px)
   }
-  .fadeup-logo{
-    animation-name:fadeup;
-    animation-duration: 3s;
-  }
-    @keyframes fadeup{
-        from{
-            opacity: 0;
-            transform:translateY(50px)
-        }
-        to{
-            opacity: 1;
-            transform: translateY(0px);
-        }
-  
-    }
 
-    .timeline {
-      width: 92%;
-      max-width: 940px;
-      margin-right: auto;
-      margin-left: auto;
-      padding:1.5em;/*内側余白*/
-      border-radius: 150px 20px/100px 100px;
-      border: 8px solid #576ca8;
-      z-index: 100;
-    }
-    
-    .timeline-list {
-      padding: 0px 0;
-    }
-    
-    .timeline-list-item {
-      display: flex;
-      line-height: 1.5;
-      font-size: 16px;
-    }
-    
-    .timeline-list-item .date {
-      width: 35%;
-      padding: 0 0 0 1px;
-      color:#302b27;
-      font-family: 'Noto Sans JP', sans-serif;
-      font-size:12px
-    }
-    
-    .timeline-list-item .content {
-      position: relative;
-      width: 70%;
-      padding: 0 0px 10px 20px;
-      border-left: 2px solid #1b264f;
-      font-size: 16px;
-      color:#302b27;
-      font-family: 'Meiryo';
-    }
-    
-    .timeline-list-item .content::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: -10px;
-      width: 20px;
-      height: 20px;
-      background-color: #576ca8;
-      border-radius: 10px;
-      z-index: 1;
-    }
-.title{
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+}
+
+.fadeup-logo {
+  animation-name: fadeup;
+  animation-duration: 3s;
+}
+
+@keyframes fadeup {
+  from {
+    opacity: 0;
+    transform: translateY(50px)
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+}
+
+.timeline {
+  width: 92%;
+  max-width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1.5em;
+  /*内側余白*/
+  border-radius: 150px 20px/100px 100px;
+  border: 8px solid #576ca8;
+  z-index: 100;
+}
+
+.timeline-list {
+  padding: 0px 0;
+}
+
+.timeline-list-item {
+  display: flex;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.timeline-list-item .date {
+  width: 35%;
+  padding: 0 0 0 1px;
+  color: #302b27;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 12px
+}
+
+.timeline-list-item .content {
+  position: relative;
+  width: 70%;
+  padding: 0 0px 10px 20px;
+  border-left: 2px solid #1b264f;
+  font-size: 16px;
+  color: #302b27;
+  font-family: 'Meiryo';
+}
+
+.timeline-list-item .content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  background-color: #576ca8;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.title {
   font-family: 'Permanent Marker', cursive;
   font-size: 30px
 }
-.fadeup-overall{
-  animation-name:fadeup;
+
+.fadeup-overall {
+  animation-name: fadeup;
   animation-duration: 2s;
 }
-  @keyframes fadeup{
-      from{
-          opacity: 0;
-          transform:translateY(20px)
-      }
-      to{
-          opacity: 1;
-          transform: translateY(0px);
-      }
 
-    }
-.fadeup-logo2{
-  animation-name:fadeup2;
+@keyframes fadeup {
+  from {
+    opacity: 0;
+    transform: translateY(20px)
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+}
+
+.fadeup-logo2 {
+  animation-name: fadeup2;
   animation-duration: 5s;
 }
-  @keyframes fadeup2{
-      from{
-          opacity: 0;
-          transform:translateY(0px)
-      }
-      to{
-          opacity: 1;
-          transform: translateY(0px);
-      }
 
-    }
-    .profile {
-      width: 95%;
-      max-width: 940px;
-      margin-right: auto;
-      margin-left: auto;
-      padding:2em;/*内側余白*/
-      border-radius: 100px 120px/100px 100px;
-      border: 8px solid #00916E;
-      z-index: 100;
-    }
-
-    #card {
-      background-color: #f7f7f7;
-      height: auto;
-      width: 85%;
-      margin:  auto;
-      border-radius: 25px;
-      padding-bottom: 1px;
-      box-shadow: 3px 3px 8px whitesmoke;
-    }
-    
-    h1 {
-      color: #1b264f;
-      text-align: center;
-      width: 100%;
-      background-color: #efefef;
-      border-radius: 25px 25px 0 0;
-      color: #393B45;
-      padding: 30px 0;
-      font-weight: 400;
-      margin: 0;
-      font-size: 22px;
-    }
-    
-    .image-crop {
-      display: block;
-      position: relative;
-      background-color: #E6EBEE;
-      width: 180px;
-      height: 180px;
-      margin: 0 auto;
-      margin-top: 30px;
-      overflow: hidden;
-      border-radius: 50%;
-      box-shadow: 2px 2px 3px whitesmoke;
-      z-index: 30;
-    }
-    
-    #avatar {
-      display: inline;
-      height: 230px;
-      width: 100%;
-      z-index: 10;
-    }
-    
-    #bio {
-      display: block;
-      margin: 30px auto;
-      width: 80%;
-      height: auto;
-    }
-    
-    #bio p {
-      color: #1b264f;
-      font-weight: lighter;
-      font-family: 'Meiryo';
-      font-size: 15px;
-      text-align: justify;
-    }
-    
-    #stats {
-      display: flex;
-      flex-direction: row;
-      height: auto;
-      width: 280px;
-      justify-content: space-between;
-      align-items: center;
-      margin: 0 auto;
-      font-weight: 500;
-    }
-    
-    .col {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: auto;
-    }
-    
-    .stat {
-      font-size: 20px;
-      margin: 0;
-    }
-    
-    .label {
-      margin: 0;
-    }
-    
-    #buttons {
-      display: flex;
-      margin: 0 auto;
-      justify-content: space-between;
-      width: 280px;
-    }
-    
-    button {
-      display: block;
-      position: relative;
-      padding: 10px 0;
-      width: 130px;
-      margin: 30px 0;
-      border-radius: 25px;
-      border: none;
-      font-size: 20px;
-      letter-spacing: 0.2px;
-      font-weight: 500;
-      background-color: #4069E2;
-      color: #E6EBEE;
-    }
-
-    
-    button:hover {
-      transform: scale(1.03);
-      cursor: pointer;
-      transition: all 0.2s ease-in-out;
-    }
-    
-    #msg{
-      background-color: #E6EBEE;
-      color: #393B45;
-    }
-    .Form {
-      margin-top: 80px;
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 720px;
-    }
-    @media screen and (max-width: 480px) {
-      .Form {
-        margin-top: 40px;
-      }
-    }
-    .Form-Item {
-      font-family: "Meiryo";
-      padding-top: 24px;
-      padding-bottom: 24px;
-      width: 100%;
-      display: flex;
-      align-items: center;
-    }
-    @media screen and (max-width: 480px) {
-      .Form-Item {
-        padding-left: 14px;
-        padding-right: 14px;
-        padding-top: 16px;
-        padding-bottom: 16px;
-        flex-wrap: wrap;
-      }
-    }
-
-    .Form-Item-Label {
-      width: 100%;
-      max-width: 248px;
-      letter-spacing: 0.05em;
-      font-weight: bold;
-      font-size: 18px;
-    }
-    @media screen and (max-width: 480px) {
-      .Form-Item-Label {
-        max-width: inherit;
-        display: flex;
-        align-items: center;
-        font-size: 15px;
-      }
-    }
-    .Form-Item-Label.isMsg {
-      margin-top: 8px;
-      margin-bottom: auto;
-    }
-    @media screen and (max-width: 480px) {
-      .Form-Item-Label.isMsg {
-        margin-top: 0;
-      }
-    }
-    .Form-Item-Label-Required {
-      border-radius: 6px;
-      margin-right: 8px;
-      padding-top: 8px;
-      padding-bottom: 8px;
-      width: 48px;
-      display: inline-block;
-      text-align: center;
-      background: #545454;
-      color: #fff;
-      font-size: 14px;
-    }
-    @media screen and (max-width: 480px) {
-      .Form-Item-Label-Required {
-        border-radius: 4px;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        width: 32px;
-        font-size: 10px;
-      }
-    }
-    .Form-Item-Input {
-      border: 1px solid #ddd;
-      border-radius: 6px;
-      margin-left: 40px;
-      padding-left: 1em;
-      padding-right: 1em;
-      height: 48px;
-      flex: 1;
-      width: 100%;
-      max-width: 410px;
-      background: #eaedf2;
-      font-size: 18px;
-    }
-    @media screen and (max-width: 480px) {
-      .Form-Item-Input {
-        margin-left: 0;
-        margin-top: 18px;
-        height: 40px;
-        flex: inherit;
-        font-size: 15px;
-      }
-    }
-    .Form-Item-Textarea {
-      border: 1px solid #ddd;
-      border-radius: 6px;
-      margin-left: 40px;
-      padding-left: 1em;
-      padding-right: 1em;
-      height: 216px;
-      flex: 1;
-      width: 100%;
-      max-width: 410px;
-      background: #eaedf2;
-      font-size: 18px;
-    }
-    @media screen and (max-width: 480px) {
-      .Form-Item-Textarea {
-        margin-top: 18px;
-        margin-left: 0;
-        height: 200px;
-        flex: inherit;
-        font-size: 15px;
-      }
-    }
-    .Form-Btn {
-      border-radius: 6px;
-      margin-top: 32px;
-      margin-left: auto;
-      margin-right: auto;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      width: 280px;
-      display: block;
-      letter-spacing: 0.05em;
-      background: #545454;
-      color: #fff;
-      font-weight: bold;
-      font-size: 20px;
-    }
-    @media screen and (max-width: 480px) {
-      .Form-Btn {
-        margin-top: 24px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        font-size: 16px;
-      }
-        
-
-    .sample {
-      position:relative;
-      overflow:hidden;
-      width:100%;
-      height:300px;
-      z-index: 1;
-      transform:rotate(180deg);
-    }
-    
-      .sample::before,
-      .sample::after {
-        position:absolute;
-        left:-40%;
-        width:200%;
-        height:200%;
-        content:"";
-        background-color:#3168dd;
-        animation:wave linear 10s infinite;
-      }
-    
-      .sample::before {
-        top:-150%;
-        border-radius:50% 50% / 50% 70%;
-      }
-    
-      .sample::after {
-        top:-146%;
-        border-radius:30% 70% / 30% 50%;
-        opacity:0.2;
-        animation-delay:s;
-      }
-    
-    @keyframes wave {
-      from {
-        transform:rotate(0deg);
-      }
-      to {
-        transform:rotate(360deg);
-      }
-    }
+@keyframes fadeup2 {
+  from {
+    opacity: 0;
+    transform: translateY(0px)
   }
-  .font-theme{
-    font-family: 'Noto Serif JP', serif;
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
   }
-  .h1-head{
+
+}
+
+.profile {
+  width: 95%;
+  max-width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2em;
+  /*内側余白*/
+  border-radius: 100px 120px/100px 100px;
+  border: 8px solid #00916E;
+  z-index: 100;
+}
+
+#card {
+  background-color: #f7f7f7;
+  height: auto;
+  width: 85%;
+  margin: auto;
+  border-radius: 25px;
+  padding-bottom: 1px;
+  box-shadow: 3px 3px 8px whitesmoke;
+}
+
+h1 {
+  color: #1b264f;
+  text-align: center;
+  width: 100%;
+  background-color: #efefef;
+  border-radius: 25px 25px 0 0;
+  color: #393B45;
+  padding: 30px 0;
+  font-weight: 400;
+  margin: 0;
+  font-size: 22px;
+}
+
+.image-crop {
+  display: block;
+  position: relative;
+  background-color: #E6EBEE;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  margin-top: 30px;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px whitesmoke;
+  z-index: 30;
+}
+
+#avatar {
+  display: inline;
+  height: 230px;
+  width: 100%;
+  z-index: 10;
+}
+
+#bio {
+  display: block;
+  margin: 30px auto;
+  width: 80%;
+  height: auto;
+}
+
+#bio p {
+  color: #1b264f;
+  font-weight: lighter;
+  font-family: 'Meiryo';
+  font-size: 15px;
+  text-align: justify;
+}
+
+#stats {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 280px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.stat {
+  font-size: 20px;
+  margin: 0;
+}
+
+.label {
+  margin: 0;
+}
+
+#buttons {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 280px;
+}
+
+button {
+  display: block;
+  position: relative;
+  padding: 10px 0;
+  width: 130px;
+  margin: 30px 0;
+  border-radius: 25px;
+  border: none;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  background-color: #4069E2;
+  color: #E6EBEE;
+}
+
+
+button:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#msg {
+  background-color: #E6EBEE;
+  color: #393B45;
+}
+
+.Form {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 720px;
+}
+
+@media screen and (max-width: 480px) {
+  .Form {
+    margin-top: 40px;
+  }
+}
+
+.Form-Item {
+  font-family: "Meiryo";
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+  .Form-Item {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-wrap: wrap;
+  }
+}
+
+.Form-Item-Label {
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 480px) {
+  .Form-Item-Label {
+    max-width: inherit;
     display: flex;
-    align-items: center;/* 縦位置の調整 */
-    justify-content: center;/* 横位置の調整 */
-    font-family: 'Permanent Marker', cursive;
-    background-color: transparent;
+    align-items: center;
+    font-size: 15px;
   }
-  
-  .h1-head::before,
-  .h1-head::after {
-    content: '';
-    flex-grow: 0.8;/* 少数にする */
-    height: 3px;
+}
+
+.Form-Item-Label.isMsg {
+  margin-top: 8px;
+  margin-bottom: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .Form-Item-Label.isMsg {
+    margin-top: 0;
   }
-  
-  
+}
+
+.Form-Item-Label-Required {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #545454;
+  color: #fff;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 480px) {
+  .Form-Item-Label-Required {
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 32px;
+    font-size: 10px;
+  }
+}
+
+.Form-Item-Input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 48px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 480px) {
+  .Form-Item-Input {
+    margin-left: 0;
+    margin-top: 18px;
+    height: 40px;
+    flex: inherit;
+    font-size: 15px;
+  }
+}
+
+.Form-Item-Textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 216px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 480px) {
+  .Form-Item-Textarea {
+    margin-top: 18px;
+    margin-left: 0;
+    height: 200px;
+    flex: inherit;
+    font-size: 15px;
+  }
+}
+
+.Form-Btn {
+  border-radius: 6px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 280px;
+  display: block;
+  letter-spacing: 0.05em;
+  background: #545454;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .Form-Btn {
+    margin-top: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+  }
+
+
+  .sample {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+    transform: rotate(180deg);
+  }
+
+  .sample::before,
+  .sample::after {
+    position: absolute;
+    left: -40%;
+    width: 200%;
+    height: 200%;
+    content: "";
+    background-color: #3168dd;
+    animation: wave linear 10s infinite;
+  }
+
+  .sample::before {
+    top: -150%;
+    border-radius: 50% 50% / 50% 70%;
+  }
+
+  .sample::after {
+    top: -146%;
+    border-radius: 30% 70% / 30% 50%;
+    opacity: 0.2;
+    animation-delay: s;
+  }
+
+  @keyframes wave {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+.font-theme {
+  font-family: 'Noto Serif JP', serif;
+}
+
+.h1-head {
+  display: flex;
+  align-items: center;
+  /* 縦位置の調整 */
+  justify-content: center;
+  /* 横位置の調整 */
+  font-family: 'Permanent Marker', cursive;
+  background-color: transparent;
+}
+
+.h1-head::before,
+.h1-head::after {
+  content: '';
+  flex-grow: 0.8;
+  /* 少数にする */
+  height: 3px;
+}
+
+
+.timeline2 {
+  width: 90%;
+  max-width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1.5em;
+  /*内側余白*/
+  border-radius: 160px 200px/100px 200px;
+  border: 5px solid #c2c871;
+  z-index: 100;
+}

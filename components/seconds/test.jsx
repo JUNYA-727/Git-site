@@ -686,7 +686,7 @@ export default function Career() {
         <p
           style={{
             marginLeft: "5%",
-            marginBottom: "0px",
+            marginBottom: "20px",
             color: `${checked ? "black" : "#fff"}`,
           }}
           className="title"
@@ -694,8 +694,8 @@ export default function Career() {
           Profile
         </p>
 
-        <div id="card" style={{ marginTop: "20%", marginBottom: "0%" }}>
-          <h3
+        <div class="timeline2" style={{ backgroundColor: "white" }}>
+          <h4
             style={{
               textAlign: "center",
               paddingTop: "10%",
@@ -703,7 +703,7 @@ export default function Career() {
             className="profile-name"
           >
             JUNYA KURAMOCHI
-          </h3>
+          </h4>
           <div class="image-crop">
             <Swiper
               modules={[Pagination, Scrollbar, A11y, Autoplay]}
@@ -753,12 +753,20 @@ export default function Career() {
           </div>
 
           <div id="bio" ref={ref1}>
-            <p style={{ fontFamily: "Noto Sans JP" }} className="font-theme">
-              機械学習分野、特にTensorFlow、あとクラウド分野が好き。
+            <p style={{ fontFamily: "Noto Sans JP",textAlign: "center",}} className="font-theme">
+              メインはAWSクラウドエンジニア
               <br></br>
-              今はAWSとAzureを主に学習しています。
               <br></br>
-              今年はKaggle入賞とAWS SAA習得を目標。
+              ==技術領域==
+              <br></br>
+                フロントエンド(Next.js/React)
+              <br></br>
+                機械学習分野(Python/TensorFlow)
+              <br></br>
+              <br></br>
+              ==趣味==
+              <br></br>
+              旅行・車
             </p>
 
             <h1 className="h1-head">I have used</h1>

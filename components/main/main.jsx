@@ -132,7 +132,7 @@ function First() {
                 style={{ color: "eb34d5" }}
               ></InstagramIcon>
             </IconButton>
-            <IconButton
+            {/* <IconButton
               variant="outlined"
               href="https://article-junya-727.vercel.app/"
             >
@@ -140,17 +140,17 @@ function First() {
                 fontSize="large"
                 style={{ color: "#56aa59" }}
               ></ArticleIcon>
-            </IconButton>
+            </IconButton> */}
 
-            <IconButton
-              variant="outlined"
-              href="https://www.linkedin.com/in/junya-kuramochi"
-            >
-              <LinkedInIcon
-                fontSize="large"
-                style={{ color: "#0E76A8" }}
-              ></LinkedInIcon>
-            </IconButton>
+              <IconButton
+                variant="outlined"
+                href="https://www.linkedin.com/in/junya-kuramochi"
+              >
+                <LinkedInIcon
+                  fontSize="large"
+                  style={{ color: "#0E76A8" }}
+                ></LinkedInIcon>
+              </IconButton>
             <IconButton variant="outlined" href="https://github.com/JUNYA-727">
               <GitHubIcon
                 fontSize="large"
